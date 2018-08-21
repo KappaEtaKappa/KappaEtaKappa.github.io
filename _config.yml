@@ -16,8 +16,8 @@
 title: Kappa Eta Kappa
 email: webmaster@delta.khk.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Kappa Eta Kappa is a national, professional co-ed Electrical 
-  Engineering Fraternity founded 1923. Delta Chapter is located 
+  Kappa Eta Kappa is a national, professional co-ed Electrical
+  Engineering Fraternity founded 1923. Delta Chapter is located
   at the University of Wisconsin, Madison.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,9 +28,19 @@ github_username: kappaetakappa
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+
+collections:
+  members:
+    output: true
+    permalink: /:collection/:path
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: members
+    values:
+      layout: "members_layout"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

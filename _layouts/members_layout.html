@@ -1,0 +1,16 @@
+{% include header.html %}
+<!-- Main -->
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+				<section>
+					{% for member_id in page.members %}
+					  {% include member.html id=member_id %}
+					{% endfor %}
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+{% include footer.html %}
