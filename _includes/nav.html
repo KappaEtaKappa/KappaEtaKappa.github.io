@@ -1,43 +1,25 @@
-<!-- Header -->
-	<div id="header-wrapper">
-		<div id="header">
-
-			<!-- Logo -->
-				<h1><a href="{{ site.baseurl }}/index.html">Dopetrope</a></h1>
-
-			<!-- Nav -->
-				<nav id="nav">
+<!-- Nav -->
+<nav id="nav">
+	<ul>
+		{% assign current = page.url | downcase | split: '/' %}
+		<li {% if current[1] == null || current[1] == 'index.html' %}class='current'{% endif %}><a href="index.html">Home</a></li>
+		<li {% if current[1] == 'abut.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
+		<li {% if current[1] == 'get-involved.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved.html">Get Involved</a></li>
+		<li {% if current[1] == 'members.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members.html">Members</a></li>
+		<li>
+			<a href="">Organizations</a>
+			<ul>
+				<li><a href="http://daa.khk.org">Delta Alumni Association</a></li>
+				<li><a href="http://khk.org">National Association</a></li>
+				<li><a href="http://nec.khk.org">National Executive Council</a></li>
+				<li>
+					<a href="#">Other Chapters</a>
 					<ul>
-						<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-						<li>
-							<a href="">Dropdown</a>
-							<ul>
-								<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-								<li><a href="#">Magna phasellus</a></li>
-								<li><a href="#">Etiam dolore nisl</a></li>
-								<li>
-									<a href="">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Veroeros feugiat</a></li>
-										<li><a href="#">Nisl sed aliquam</a></li>
-										<li><a href="#">Dolore adipiscing</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
-							</ul>
-						</li>
-						{% assign current = page.url | downcase | split: '/' %}
-						<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-						<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-						<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
+						<li><a href="http://beta.khk.org">Beta (UM - St Paul/Twin Cities)</a></li>
+						<li><a href="http://iota.khk.org">Iota (UM - St Cloud)</a></li>
 					</ul>
-				</nav>
-
-				<div class="header-img">
-					<img src="{{ site.baseurl }}/assets/images/pic11.jpg">
-				</div>
-
-		</div>
-	</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</nav>
