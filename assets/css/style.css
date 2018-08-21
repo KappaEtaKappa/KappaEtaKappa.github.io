@@ -315,7 +315,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #d52349;
+			background: #7b4ead;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -331,7 +331,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background: #e53359;
+				background: #9672bd;
 			}
 
 			input[type="button"]:active,
@@ -643,7 +643,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #7b4ead;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -665,19 +665,19 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #7b4ead;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
 
 			.icon.featured.alt
 			{
-				background-color: #252122;
+				background-color: #ffdf44;
 			}
 
 				.icon.featured.alt:after
 				{
-					border-top-color: #252122;
+					border-top-color: #ffdf44;
 				}
 
 			.icon.featured.alt2
@@ -715,9 +715,15 @@
 				font-weight: 700;
 			}
 
+			#banner header h3 {
+				color: #deca67;
+    		font-size: 2.1em;
+    		margin: 0 0 0.65em 0;
+			}
+
 			#banner header p
 			{
-				color: #d52349;
+				color: #a66ce6;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
