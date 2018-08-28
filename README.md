@@ -11,7 +11,7 @@ This project is built with [Jekyll](https://jekyllrb.com/). Jekyll is a simple a
 # Fork and/or checkout the repository 
 $ git clone git@github.com:KappaEtaKappa/delta.khk.org.jekyll.git
 
-# Run the Jekyll development server
+# Run the Jekyll development server (http://localhost:1924)
 $ cd delta.khk.org.jekyll
 $ jekyll serve
 ```
