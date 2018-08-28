@@ -19,4 +19,26 @@ Jekyll will watch the current directory for changes and rebuild automatically.
 
 When running in production, we use `jekyll build` to create all required files and NGINX (or Apache) to serve them. The server provided by Jekyll is just for convenience.
 
-It's best to make small, contained changes. When you've committed your change(s) submit a pull-request. Reach out to the current maintainer(s) to have your code merged and loaded into production.
+### Pushing to Production
+It's best to make small, contained changes. Once you've committed your change(s) submit a pull-request. Reach out to the current site maintainer(s) to have your code merged and pulled into production.
+
+If you're new to git, checkout [Git No Deep Shit!](http://rogerdudler.github.io/git-guide/). Here is the basic workflow.
+```bash
+# Checkout the repository 
+$ git clone <repo>
+
+# Start a new branch
+$ git checkout -b my_new_feature
+```
+Make your changes now. It's best to keep your commits small.
+```bash
+# Add and commit your changes
+$ git add --all
+$ git commit -m "<description of changes>"
+
+# Push your changes to github
+$ git push
+```
+Your changes will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production. 
+
+
