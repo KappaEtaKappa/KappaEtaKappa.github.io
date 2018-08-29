@@ -1,23 +1,6 @@
 ---
 title: members
-layout: default
+layout: passthrough
 permalink: /members/index.html
 ---
-<!-- Main -->
-<div id="main-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="12u">
-				<!-- Current Members -->
-				<section>
-					<div class="row">
-						{% for member_id in site.members[0].members %}
-							<div class="4u">
-								{% include member.html id=member_id %}
-							</div>
-						{% endfor %}
-				</section>
-			</div>
-		</div>
-	</div>
-</div>
+{{ site.members[0] }}
