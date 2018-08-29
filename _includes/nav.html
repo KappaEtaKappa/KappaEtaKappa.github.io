@@ -1,25 +1,25 @@
 <!-- Nav -->
 <nav id="nav">
-	<ul>
-		{% assign current = page.url | downcase | split: '/' %}
-		<li {% if current[1] == null || current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
-		<li {% if current[1] contains 'about' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
-		<li {% if current[1] contains 'get-involved' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved.html">Get Involved</a></li>
-		<li {% if current[1] contains 'members' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members">Members</a></li>
-		<li>
-			<a href="">Organizations</a>
-			<ul>
-				<li><a href="http://daa.khk.org">Delta Alumni Association</a></li>
-				<li><a href="http://khk.org">National Association</a></li>
-				<li><a href="http://nec.khk.org">National Executive Council</a></li>
-				<li>
-					<a href="#">Other Chapters</a>
-					<ul>
-						<li><a href="http://beta.khk.org">Beta (UM - St Paul/Twin Cities)</a></li>
-						<li><a href="http://iota.khk.org">Iota (UM - St Cloud)</a></li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-	</ul>
+  <ul>
+    {% assign current = page.url | downcase | split: '/' %}
+    <li {% if current[1] == null || current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+    <li {% if current[1] contains 'about' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
+    <li {% if current[1] contains 'get-involved' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved.html">Get Involved</a></li>
+    <li {% if current[1] contains 'members' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members">Members</a></li>
+    <li>
+      <a href="">Organizations</a>
+      <ul>
+        <li><a href="http://daa.khk.org">Delta Alumni Association</a></li>
+        <li><a href="http://khk.org">National Association</a></li>
+        <li><a href="http://nec.khk.org">National Executive Council</a></li>
+        <li>
+          <a href="#">Other Chapters</a>
+          <ul>
+            <li><a href="http://beta.khk.org">Beta (UM - St Paul/Twin Cities)</a></li>
+            <li><a href="http://iota.khk.org">Iota (UM - St Cloud)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </nav>

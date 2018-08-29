@@ -1,19 +1,19 @@
 {% include header.html banner=false %}
 <div id="main-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="12u">
-				<section>
-					<div class="row">
-						{% for member_id in page.members %}
-							<div class="3u">
-						  	{% include member.html id=member_id %}
-							</div>
-						{% endfor %}
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="12u">
+        <section>
+          <div class="row">
+            {% for member_id in page.members %}
+              <div class="3u">
+                {% include member.html id=member_id %}
+              </div>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
 </div>
 {% include footer.html %}
