@@ -10,9 +10,12 @@ permalink: /members/index.html
 			<div class="12u">
 				<!-- Current Members -->
 				<section>
-					{% for member_id in site.members[0].members %}
-						{% include member.html id=member_id %}
-					{% endfor %}
+					<div class="row">
+						{% for member_id in site.members[0].members %}
+							<div class="4u">
+								{% include member.html id=member_id %}
+							</div>
+						{% endfor %}
 				</section>
 			</div>
 		</div>

@@ -5,9 +5,13 @@
 		<div class="row">
 			<div class="12u">
 				<section>
-					{% for member_id in page.members %}
-					  {% include member.html id=member_id %}
-					{% endfor %}
+					<div class="row">
+						{% for member_id in page.members %}
+							<div class="3u">
+						  	{% include member.html id=member_id %}
+							</div>
+						{% endfor %}
+					</div>
 				</section>
 			</div>
 		</div>
