@@ -2,10 +2,10 @@
 <nav id="nav">
 	<ul>
 		{% assign current = page.url | downcase | split: '/' %}
-		<li {% if current[1] == null || current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
-		<li {% if current[1] == 'abut.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
-		<li {% if current[1] == 'get-involved.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved.html">Get Involved</a></li>
-		<li {% if current[1] == 'members.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/">Members</a></li>
+		<li {% if current[1] == null || current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+		<li {% if current[1] contains 'about' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about.html">About</a></li>
+		<li {% if current[1] contains 'get-involved' %}class='current'{% endif %}><a href="{{ site.baseurl }}/get-involved.html">Get Involved</a></li>
+		<li {% if current[1] contains 'members' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members">Members</a></li>
 		<li>
 			<a href="">Organizations</a>
 			<ul>

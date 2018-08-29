@@ -1,31 +1,19 @@
-{% include header.html %}
-<body>
-	<!-- Header -->
-	<div id="header-wrapper">
-		<div id="header">
-			<!-- Logo -->
-			<h1><a href="index.html">Kappa Eta Kappa</a></h1>
-			<!-- Nav -->
-			{% include nav.html %}
-		</div>
-	</div>
-	<!-- Main -->
-	<div id="main-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="12u">
-					<section>
-						<div class="row">
-							{% for member_id in page.members %}
-								<div class="3u">
-							  	{% include member.html id=member_id %}
-								</div>
-							{% endfor %}
-						</div>
-					</section>
-				</div>
+{% include header.html banner=false %}
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+				<section>
+					<div class="row">
+						{% for member_id in page.members %}
+							<div class="3u">
+						  	{% include member.html id=member_id %}
+							</div>
+						{% endfor %}
+					</div>
+				</section>
 			</div>
 		</div>
 	</div>
-</body>
+</div>
 {% include footer.html %}

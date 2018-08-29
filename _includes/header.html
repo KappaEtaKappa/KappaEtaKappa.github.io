@@ -23,3 +23,24 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
+
+	<body class="homepage">
+		<!-- Header -->
+		<div id="header-wrapper">
+			<div id="header">
+				<!-- Logo -->
+				<h1><a href="index.html">Kappa Eta Kappa</a></h1>
+				<!-- Nav -->
+				{% include nav.html %}
+				<!-- Home Page Banner -->
+				{% if include.banner %}
+					{% include banner.html %}
+				{% endif %}
+			</div>
+		</div>
+
+{% comment %}
+		<!-- ...content -->
+	<!-- </body> -->
+<!-- </html> -->
+{% endcomment %}
