@@ -1,17 +1,23 @@
 Joseph Dailey:
   name: Joseph Dailey
-  status: alumnus
+  status: Software Engineer at Facebook
   photo_uri: /assets/images/pic05.jpg
   connect_uri: www.facebook.com/daileyjoe
 
 Ethan Erdmann:
   name: Ethan Erdmann
-  status: alumnus
+  status: Forester for the DNR of Minnesota
   photo_uri: /assets/images/pic02.jpg
   connect_uri: www.twitter.com/fishmonger
 
 Lucas Mullens:
   name: Lucas Mullens
-  status: alumnus
+  status: Software Engineer at Google
   photo_uri: /assets/images/pic03.jpg
-  connect_uri: www.cheetah.com/lmullens
+  connect_uri: plus.google.com/lmullens
+
+Matthew Kramer:
+  name: Matthew Kramer
+  status: UW Senior in Computer Science
+  photo_uri: /assets/images/pic04.jpg
+  connect_uri: linkedin.com/mkramer

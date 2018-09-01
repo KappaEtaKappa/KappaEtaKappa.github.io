@@ -3,8 +3,8 @@
   <a href="#" class="image featured"><img src="{{ member.photo_uri }}" alt="" /></a>
   <header>
     <h3>{{member.name}}</h3>
+    <p>{{member.status}}</p>
   </header>
-  <p>{{member.status}}</p>
   <footer>
     {% assign connect_class = 'alt fa-link' %}
     {% if member.connect_uri contains 'facebook.com' %}
