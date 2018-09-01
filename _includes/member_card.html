@@ -1,0 +1,30 @@
+{% assign member = site.data.member_bios[include.id] %}
+<section class="box">
+  <a href="#" class="image featured"><img src="{{ member.photo_uri }}" alt="" /></a>
+  <header>
+    <h3>{{member.name}}</h3>
+  </header>
+  <p>{{member.status}}</p>
+  <footer>
+    {% assign connect_class = 'alt fa-link' %}
+    {% if member.connect_uri contains 'facebook.com' %}
+      {% assign connect_class = 'fa-facebook' %}
+    {% endif %}
+    {% if member.connect_uri contains 'twitter.com' %}
+      {% assign connect_class = 'fa-twitter' %}
+    {% endif %}
+    {% if member.connect_uri contains 'dribble.com' %}
+      {% assign connect_class = 'fa-dribble' %}
+    {% endif %}
+    {% if member.connect_uri contains 'linkedin.com' %}
+      {% assign connect_class = 'fa-linkedin' %}
+    {% endif %}
+    {% if member.connect_uri contains 'google.com' %}
+      {% assign connect_class = 'fa-google-plus' %}
+    {% endif %}
+    {% if member.connect_uri contains 'tumblr.com' %}
+      {% assign connect_class = 'fa-tumblr' %}
+    {% endif %}
+    <a href="#" class="button icon {{connect_class}}">Connect</a>
+  </footer>
+</section>

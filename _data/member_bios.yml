@@ -2,13 +2,16 @@ Joseph Dailey:
   name: Joseph Dailey
   status: alumnus
   photo_uri: /assets/images/pic05.jpg
+  connect_uri: www.facebook.com/daileyjoe
 
 Ethan Erdmann:
   name: Ethan Erdmann
   status: alumnus
   photo_uri: /assets/images/pic02.jpg
+  connect_uri: www.twitter.com/fishmonger
 
 Lucas Mullens:
   name: Lucas Mullens
   status: alumnus
   photo_uri: /assets/images/pic03.jpg
+  connect_uri: www.cheetah.com/lmullens

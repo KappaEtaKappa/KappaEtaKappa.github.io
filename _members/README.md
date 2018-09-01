@@ -21,11 +21,11 @@ Ethan Erdmann: # Matching ID
 ```
 
 # Rendering Member Information
-`member.html` is an HTML fragment that can be included with liquid.
+`member_card.html` is an HTML fragment that can be included with liquid.
 ```yml
 /_layouts/members_layout.html
 ---
 {% for member_id in page.members %}
-  {% include member.html id=member_id %}
+  {% include member_card.html id=member_id %}
 {% endfor %}
 ```
