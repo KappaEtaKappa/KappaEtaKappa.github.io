@@ -37,6 +37,7 @@ collections:
     permalink: /:collection/:path
   events:
     output: true
+    permalink: /:collection/:path
 
 defaults:
   -

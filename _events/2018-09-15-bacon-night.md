@@ -1,6 +1,11 @@
 ---
 title: Bacon Night
 layout: event
+location: Our house
+address: >-
+  114 N. Orchard St.
+  Madison, WI 53715
+
 ---
 
 Join us for our semesterly night of celebrating a cultural delicacy, bacon! Starting at 6 and going through the evening, we'll keep the skillets hot and the strips coming. Come any time and stay as long as you want. It's guaranteed to be a packed house and a great chance to meet the members.

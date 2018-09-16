@@ -385,3 +385,10 @@
 		"Contact-us"
 		"Copyright";
 }
+
+.footer-grid.no_events {
+	grid-template-areas:
+		"What-is-this"
+		"Contact-us"
+		"Copyright";
+}

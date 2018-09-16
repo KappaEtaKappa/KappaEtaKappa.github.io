@@ -461,3 +461,17 @@
 .leadership-grid {
 	margin-bottom:50px;
 }
+
+.footer-grid.no-events  .footer-learn-more {
+	grid-auto-flow: column;
+}
+
+.footer-grid.no-events {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 0 50px;
+	grid-template-areas:
+		"What-is-this Contact-us"
+		"Copyright Copyright";
+}

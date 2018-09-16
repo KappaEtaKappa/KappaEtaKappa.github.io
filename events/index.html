@@ -1,0 +1,26 @@
+---
+title: Events
+layout: default
+show_events: false
+---
+
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+			<div class="12u">
+        <section>
+          <header class="major"><h2>Events</h2><header>
+        </section>
+
+        {% for event in site.events %}
+        <div class="row">
+          <div class="8u -2u">
+          {% include event_card.html event=event box=true %}
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -22,6 +22,9 @@
   {% if member.connect_uri contains 'tumblr.com' %}
     {% assign connect_class = 'fa-tumblr' %}
   {% endif %}
+  {% if member.connect_uri contains 'github.com' %}
+    {% assign connect_class = 'fa-github' %}
+  {% endif %}
   <a href="#" class="button icon {{connect_class}}">Connect</a>
 {% endcapture %}
 
