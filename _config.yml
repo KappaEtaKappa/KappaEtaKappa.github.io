@@ -35,6 +35,8 @@ collections:
   members:
     output: true
     permalink: /:collection/:path
+  events:
+    output: true
 
 defaults:
   -
@@ -49,6 +51,13 @@ defaults:
       type: posts
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: events
+    values:
+      layout: "event"
+
 
 paginate: 3
 paginate_path: /posts/page:num/

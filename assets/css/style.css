@@ -527,7 +527,7 @@
 					padding: 1.3em 0 1.3em 6.75em;
 				}
 
-				ul.dates .date
+				ul.dates .date-arrow
 				{
 					display: block;
 					position: absolute;
@@ -543,7 +543,7 @@
 					padding: 0.5em 0.75em 0 1em;
 				}
 
-					ul.dates .date:after
+					ul.dates .date-arrow:after
 					{
 						content: '';
 						position: absolute;
@@ -554,12 +554,17 @@
 						border-bottom: solid 1.8em transparent;
 					}
 
-					ul.dates .date strong
+					ul.dates .date-arrow strong
 					{
 						display: block;
 						font-size: 1.75em;
 						padding-top: 0.15em;
 					}
+
+				ul.dates .date-details
+				{
+					margin-left: 1.2em;
+				}
 
 				ul.dates h3
 				{
@@ -577,7 +582,7 @@
 					padding-top: 0;
 				}
 
-					ul.dates li:first-child .date
+					ul.dates li:first-child .date-arrow
 					{
 						top: 0;
 					}
@@ -911,7 +916,10 @@
 
 	#copyright
 	{
+		align-content: end;
+		margin: 3em 0 3em 0;
 		text-align: center;
+		display: inherit;
 	}
 
 		#copyright .links
@@ -984,3 +992,18 @@
 	.leadership-grid > .Vice-President {grid-area: Vice-President;}
 	.leadership-grid > .Pledge-Trainer {grid-area: Pledge-Trainer;}
 	.leadership-grid > .House-Steward {grid-area: House-Steward;}
+
+.footer-grid {
+	display: grid;
+	grid-template-columns: 3fr 1.5fr;
+	grid-template-rows: auto auto;
+	grid-gap: 50px;
+	grid-template-areas:
+		"Events What-is-this"
+		"Copyright Contact-us";
+}
+
+.footer-grid > section.footer-Events {grid-area: Events;}
+.footer-grid > section.footer-What-is-this {grid-area: What-is-this;}
+.footer-grid > section.footer-Contact-us {grid-area: Contact-us;}
+.footer-grid > section.footer-Copyright {grid-area: Copyright;}

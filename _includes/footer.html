@@ -4,122 +4,81 @@
     <!-- ...content -->
 {% endcomment %}
 
-    <!-- Footer -->
-    <div id="footer-wrapper">
-      <section id="footer" class="container">
-        <div class="row">
-          <div class="8u">
-            <section>
-              <header>
-                <h2>Blandit nisl adipiscing</h2>
-              </header>
-              <ul class="dates">
-              {% for post in site.posts offset: 0 limit: 5 %}
-                <li>
-                  <span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-                  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                  {{ post.excerpt }}
-                </li>
-              {% endfor %}
-              </ul>
-            </section>
-          </div>
-          <div class="4u">
-            <section>
-              <header>
-                <h2>What's this all about?</h2>
-              </header>
-              <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic10.jpg" alt="" /></a>
-              <p>
-                This is <strong>Dopetrope</strong> a free, fully responsive HTML5 site template by
-                <a href="http://n33.co">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
-                the <a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for any personal or commercial project &ndash; just don't forget to credit us!
-              </p>
-              <footer>
-                <a href="#" class="button">Find out more</a>
-              </footer>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="4u">
-            <section>
-              <header>
-                <h2>Tempus consequat</h2>
-              </header>
-              <ul class="divided">
-                <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-                <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-                <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-                <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-                <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-                <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="4u">
-            <section>
-              <header>
-                <h2>Ipsum et phasellus</h2>
-              </header>
-              <ul class="divided">
-                <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-                <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-                <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-                <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-                <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-                <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
-              </ul>
-            </section>
-          </div>
-          <div class="4u">
-            <section>
-              <header>
-                <h2>Vitae tempor lorem</h2>
-              </header>
-              <ul class="social">
-                <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-                <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-                <li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-                <li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
-                <li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
-              </ul>
-              <ul class="contact">
-                <li>
-                  <h3>Address</h3>
-                  <p>
-                    Untitled Incorporated<br />
-                    1234 Somewhere Road Suite<br />
-                    Nashville, TN 00000-0000
-                  </p>
-                </li>
-                <li>
-                  <h3>Mail</h3>
-                  <p><a href="#">someone@untitled.tld</a></p>
-                </li>
-                <li>
-                  <h3>Phone</h3>
-                  <p>(800) 000-0000</p>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="12u">
-
-            <!-- Copyright -->
-            <div id="copyright">
-              <ul class="links">
-                <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                <li>Demo Images: <a href="http://facebook.com/DreametryDoodle">Dreametry Doodle</a></li>
-                <li> Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
-              </ul>
+    <div id="footer-wrapper" class="container footer-grid">
+      <section class="footer-Events">
+        <header>
+          <h2>Upcomming Events</h2>
+        </header>
+        <ul class="dates">
+        {% for event in site.events %}
+          <li>
+            <span class="date-arrow">
+              {{ event.date | date: "%B"}}
+              <strong>{{ event.date | date: "%d"}}</strong>
+            </span>
+            <div class="date-details">
+              <h3><a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></h3>
+              {{ event.excerpt }}
             </div>
+          </li>
+        {% endfor %}
+        </ul>
+      </section>
 
-          </div>
-        </div>
+      <section class="footer-What-is-this">
+        <header>
+          <h2>What's this all about?</h2>
+        </header>
+        <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic10.jpg" alt="" /></a>
+        <p>
+          <strong>Kappa Eta Kappa</strong>, or <strong><i>KHK</i></strong>, is a national, professional, co-ed Electrical and Computer Engineering Fraternity. Delta chapter is an offical student organization within the University of Wisconsin - Madison
+        </p>
+        <footer>
+          <a href="#" class="button">Find out more</a>
+        </footer>
+      </section>
+
+      <section class="footer-Contact-us">
+        <header>
+          <h2>Contact us</h2>
+        </header>
+        <ul class="social">
+          <li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+          <li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+          <li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+          <li><a class="icon fa-linkedin" href="#"><span class="label">LinkedIn</span></a></li>
+          <li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+        </ul>
+        <ul class="contact">
+          <li>
+            <h3>Address</h3>
+            <p>
+              114 N Orchard St.<br />
+              Madison, WI 53715<br />
+            </p>
+          </li>
+          <li>
+            <h3>Mail</h3>
+            <p><a href="#">webmaster@delta.khk.org</a></p>
+            <p><a href="#">president@delta.khk.org</a></p>
+            <p><a href="#">secretary@delta.khk.org</a></p>
+            <p><a href="#">treasurer@delta.khk.org</a></p>
+          </li>
+          <li>
+            <h3>Phone</h3>
+            <p>(608) 251-7545</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="copyright" class="footer-Copyright">
+        <ul class="links">
+          <li>&copy; Kappa Eta Kappa. All rights reserved.</li>
+          <li>Built with <a href="http://github.com/KappaEtaKappa">Jekyll</a></li>
+          <li>Design: <a href="http://html5up.net/license/">Dopetrope</a> by <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
       </section>
     </div>
+
   </body>
 </html>
