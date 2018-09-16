@@ -84,7 +84,7 @@
 
 	a
 	{
-		color: #d52349;
+		color: #7b4ead;
 		text-decoration: underline;
 	}
 
@@ -281,6 +281,31 @@
 					margin: 0;
 					padding: 0 1em 0 1em;
 				}
+
+				header.major i
+				{
+					background: #fff;
+					position: relative;
+					top: -0.5em;
+					display: inline;
+					margin: 0;
+					padding: 0 0.3em 0 0.3em;
+					font-size: 1.8em;
+					text-decoration: none;
+				}
+
+				header.major a {
+					text-decoration: none;
+				}
+
+				header.major a:hover {
+					text-decoration: underline;
+				}
+
+				header.major span {
+					color: #ddd;
+				}
+
 			.header-img {
 				padding-top: 4em;
 			}
@@ -780,7 +805,8 @@
 		{
 		}
 
-			#main-wrapper .major h2
+			#main-wrapper .major h2,
+			#main-wrapper .major i
 			{
 				background: #f7f7f7 url('images/bg02.png');
 			}

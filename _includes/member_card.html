@@ -1,10 +1,7 @@
 {% assign member = site.data.member_bios[include.id] %}
 {% if member != null %}
   <section class="box">
-    {% assign photo = '/assets/images/pic05.jpg' %}
-    {% if member.photo_uri != null %}
-      {% assign photo = member.photo_uri %}
-    {% endif %}
+    {% assign photo = member.photo_uri | default: '/assets/images/pic05.jpg' %}
     <span href="#" class="image featured"><img src="{{ photo }}" alt="" /></span>
     <header>
       <h3>{{member.name}}</h3>

@@ -1,4 +1,5 @@
 ---
+semester_index: 0
 members:
 - Joseph Dailey
 - Josh Howell

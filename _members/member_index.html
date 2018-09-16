@@ -1,6 +1,7 @@
 ---
-title: members
+title: Current Members
 layout: passthrough
 permalink: /members/index.html
 ---
-{{ site.members[0] }}
+{% assign sorted_pages = site.members | sort:"semester_index" | reverse %}
+{{ sorted_pages[0] }}

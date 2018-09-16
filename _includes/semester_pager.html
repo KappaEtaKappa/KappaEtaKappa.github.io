@@ -1,0 +1,47 @@
+{% assign all_pages = site.members | sort:"semester_index" %}
+
+{% assign semesters = "" | split: ',' %}
+{% for p in all_pages %}
+  {% if p.semester_index == undefined %}
+    {% continue %}
+  {% endif %}
+  {% assign semesters = semesters | push: p %}
+{% endfor %}
+
+{% assign semester_index = 0 %}
+{% for s in semesters %}
+  {% if s.url == page.url %}
+    {% break %}
+  {% endif %}
+  {% assign semester_index = semester_index | plus: 1 %}
+{% endfor %}
+
+{% assign first_semester_index = 0 %}
+{% assign prev_semester_index = semester_index | minus: 1 %}
+{% assign last_semester_index = (semesters | size) | minus: 1 %}
+{% assign next_semester_index = semester_index | plus: 1 %}
+
+<section>
+  <header class="major">
+    {% if prev_semester_index >= first_semester_index %}
+      <a href="{{site.baseurl}}{{semesters[first_semester_index].url}}"><i class="fa fa-angle-double-left"></i></a>
+      <a href="{{site.baseurl}}{{semesters[prev_semester_index].url}}"><i class="fa fa-angle-left"></i></a>
+    {% else %}
+      <span><i class="fa fa-angle-double-left"></i></span>
+      <span><i class="fa fa-angle-left"></i></span>
+    {% endif %}
+
+
+    {% assign viewed_semester = semesters[semester_index].url | split:"/" %}
+    <h2>{{viewed_semester[3] | capitalize}} {{viewed_semester[2]}} {{viewed_semester[1] | capitalize}}</h2>
+
+
+    {% if next_semester_index <= last_semester_index %}
+      <a href="{{site.baseurl}}{{semesters[next_semester_index].url}}"><i class="fa fa-angle-right"></i></a>
+      <a href="{{site.baseurl}}{{semesters[last_semester_index].url}}"><i class="fa fa-angle-double-right"></i></a>
+    {% else %}
+      <span><i class="fa fa-angle-right"></i></span>
+      <span><i class="fa fa-angle-double-right"></i></span>
+    {% endif %}
+  </header>
+</section>

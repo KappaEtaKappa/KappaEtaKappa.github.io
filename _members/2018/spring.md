@@ -1,4 +1,5 @@
 ---
+semester_index: 1
 members:
 - Joseph Dailey
 - Ethan Erdmann
