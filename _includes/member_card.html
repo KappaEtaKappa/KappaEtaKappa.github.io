@@ -1,27 +1,29 @@
 {% assign member = site.data.member_bios[include.id] %}
 {% capture connect %}
-{% assign connect_class = 'alt fa-link' %}
-{% if member.connect_uri contains 'facebook.com' %}
-  {% assign connect_class = 'fa-facebook' %}
-{% endif %}
-{% if member.connect_uri contains 'twitter.com' %}
-  {% assign connect_class = 'fa-twitter' %}
-{% endif %}
-{% if member.connect_uri contains 'dribble.com' %}
-  {% assign connect_class = 'fa-dribble' %}
-{% endif %}
-{% if member.connect_uri contains 'linkedin.com' %}
-  {% assign connect_class = 'fa-linkedin' %}
-{% endif %}
-{% if member.connect_uri contains 'google.com' %}
-  {% assign connect_class = 'fa-google-plus' %}
-{% endif %}
-{% if member.connect_uri contains 'tumblr.com' %}
-  {% assign connect_class = 'fa-tumblr' %}
-{% endif %}
-<a href="#" class="button icon {{connect_class}}">Connect</a>
+  {% assign connect_class = 'alt fa-link disabled' %}
+  {% if member.connect_uri != undefined %}
+    {% assign connect_class = 'falt fa-link' %}
+  {% endif %}
+  {% if member.connect_uri contains 'facebook.com' %}
+    {% assign connect_class = 'fa-facebook' %}
+  {% endif %}
+  {% if member.connect_uri contains 'twitter.com' %}
+    {% assign connect_class = 'fa-twitter' %}
+  {% endif %}
+  {% if member.connect_uri contains 'dribble.com' %}
+    {% assign connect_class = 'fa-dribble' %}
+  {% endif %}
+  {% if member.connect_uri contains 'linkedin.com' %}
+    {% assign connect_class = 'fa-linkedin' %}
+  {% endif %}
+  {% if member.connect_uri contains 'google.com' %}
+    {% assign connect_class = 'fa-google-plus' %}
+  {% endif %}
+  {% if member.connect_uri contains 'tumblr.com' %}
+    {% assign connect_class = 'fa-tumblr' %}
+  {% endif %}
+  <a href="#" class="button icon {{connect_class}}">Connect</a>
 {% endcapture %}
-
 
 
 {% if member != null %}

@@ -396,6 +396,23 @@
 					background: #151112;
 				}
 
+			input[type="button"].disabled,
+			input[type="submit"].disabled,
+			input[type="reset"].disabled,
+			.button.disabled,
+				input[type="button"].disabled:hover,
+				input[type="submit"].disabled:hover,
+				input[type="reset"].disabled:hover,
+				.button.disabled:hover,
+				input[type="button"].disabled:active,
+				input[type="submit"].disabled:active,
+				input[type="reset"].disabled:active,
+				.button.disabled:active
+			{
+				cursor: default;
+				background: #888;
+			}
+
 			.button.icon
 			{
 			}
