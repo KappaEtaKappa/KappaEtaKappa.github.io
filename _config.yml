@@ -41,6 +41,12 @@ defaults:
       type: members
     values:
       layout: "members_layout"
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

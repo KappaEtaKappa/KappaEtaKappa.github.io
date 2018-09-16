@@ -1,0 +1,26 @@
+{% include header.html banner=false %}
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+
+				<section>
+					<header class="major">
+						<h2>{{ page.title }}</h2>
+						<p>Posted {{ page.date | date_to_string }} by {{ page.author }}</p>
+					</header>
+					<div class="row">
+						<div class="8u -2u">
+							<section class="box">
+								<span class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="{ page.title }}" /></span>
+								{{ page.content }}
+							</section>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+</div>
+{% include footer.html %}
