@@ -958,7 +958,7 @@
 	.leadership-grid > section.box,
 	.order-grid > section.box,
 	.members-grid > section.box {
-		margin-bottom: 0;
+		margin-bottom: 0!important;
 	}
 
 .post-card:hover h3:first-child {

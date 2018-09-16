@@ -240,7 +240,7 @@
 
 	#main-wrapper
 	{
-		padding: 2em 10px;
+		padding: 2em 10px 0 10px;
 		overflow: hidden;
 	}
 
@@ -355,7 +355,33 @@
 /* Grids                                                                       */
 /*********************************************************************************/
 .members-grid,
-.updates-grid {
-	grid-template-columns: auto;
-	grid-gap: 0px;
+.updates-grid,
+.leadership-grid,
+.order-grid,
+.footer-grid
+ {
+ 	display: grid;
+ 	grid-template-columns: auto;
+ 	grid-template-rows: auto;
+	grid-gap: 10px;
+}
+
+.leadership-grid {
+	grid-template-areas:
+		"President"
+		"Vice-President"
+		"House-Steward"
+		"Pledge-Trainer";
+}
+
+.leadership-grid {
+	margin-bottom:10px;
+}
+
+.footer-grid {
+	grid-template-areas:
+		"Events"
+		"What-is-this"
+		"Contact-us"
+		"Copyright";
 }
