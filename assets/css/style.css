@@ -93,6 +93,11 @@
 			text-decoration: none;
 		}
 
+	a.no-link {
+		color: inherit;
+		text-decoration: inherit;
+	}
+
 	br.clear
 	{
 		clear: both;
@@ -364,7 +369,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background: #c51349;
+				background: ##ffdf44;
 			}
 
 			input[type="button"].alt,
@@ -902,7 +907,7 @@
 		}
 
 /*********************************************************************************/
-/* Members                                                                       */
+/* Grids                                                                         */
 /*********************************************************************************/
 .members-grid {
 	display: grid;
@@ -910,6 +915,27 @@
 	grid-gap: 30px;
 }
 
-.members-grid > section.box {
-	margin-bottom: 0;
+.updates-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+}
+
+	.updates-grid > a > section.box {
+			height: 100%;
+	}
+
+	.updates-grid > a > section.box {
+			height: 100%;
+	}
+
+	.updates-grid > a > section.box,
+	.members-grid > section.box {
+		margin-bottom: 0;
+	}
+
+
+.post-card:hover h3:first-child {
+	text-decoration: underline;
+	text-decoration-color: #7b4ead;
 }

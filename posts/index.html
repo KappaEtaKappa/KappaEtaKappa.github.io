@@ -1,0 +1,42 @@
+---
+title: Posts
+layout: default
+---
+
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+			<div class="12u">
+        <section>
+          <header class="major"><h2>Posts</h2><header>
+        </section>
+
+        {% for post in paginator.posts %}
+        <div class="row">
+          <div class="8u -2u">
+          {% include post_card.html post=post%}
+          </div>
+        </div>
+        {% endfor %}
+
+        <footer>
+          <header class="major" style="margin-bottom:0;">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}"><i class="fa fa-angle-left"></i></a>
+            {% else %}
+              <span><i class="fa fa-angle-left"></i></span>
+            {% endif %}
+
+            <h2>{{ paginator.page }} / {{ paginator.total_pages }}</h2>
+
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}"><i class="fa fa-angle-right"></i></a>
+            {% else %}
+              <span><i class="fa fa-angle-right"></i></span>
+            {% endif %}
+          </header>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
