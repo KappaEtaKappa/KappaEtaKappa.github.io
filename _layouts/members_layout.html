@@ -4,14 +4,10 @@
     <div class="row">
       <div class="12u">
         {% include semester_pager.html %}
-        <section>
-          <div class="row">
-            {% for member_id in page.members %}
-              <div class="3u">
-                {% include member_card.html id=member_id %}
-              </div>
-            {% endfor %}
-          </div>
+        <section class="members-grid">
+          {% for member_id in page.members %}
+            {% include member_card.html id=member_id %}
+          {% endfor %}
         </section>
       </div>
     </div>

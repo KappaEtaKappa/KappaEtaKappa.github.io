@@ -900,3 +900,16 @@
 			border-radius: 5px;
 			margin: 0;
 		}
+
+/*********************************************************************************/
+/* Members                                                                       */
+/*********************************************************************************/
+.members-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+}
+
+.members-grid > section.box {
+	margin-bottom: 0;
+}
