@@ -1,23 +1,200 @@
-Joseph Dailey:
-  name: Joseph Dailey
-  status: Software Engineer at Facebook
-  photo_uri: /assets/images/pic05.jpg
-  connect_uri: www.facebook.com/daileyjoe
-
+Alex Bare:
+  connect_uri: null
+  name: Alex Bare
+  photo_uri: '/assets/images/members/Bare, Alex.jpg'
+  status: null
+Alex Elliott:
+  connect_uri: null
+  name: Alex Elliott
+  photo_uri: '/assets/images/members/Elliott, Alex.jpg'
+  status: null
+Allen Kempke:
+  connect_uri: null
+  name: Allen 'A.J.' Kempke
+  photo_uri: '/assets/images/members/Kempke, Allen.jpg'
+  status: null
+Andrew Zaruba:
+  connect_uri: null
+  name: Andrew Zaruba
+  photo_uri: '/assets/images/members/Zaruba, Andrew.jpg'
+  status: null
+Calvin Rueb:
+  connect_uri: null
+  name: Calvin Rueb
+  photo_uri: '/assets/images/members/Rueb, Calvin.jpg'
+  status: null
+Christian Elowsky:
+  connect_uri: null
+  name: Christian Elowsky
+  photo_uri: '/assets/images/members/Elowsky, Christian.jpg'
+  status: null
+Christine Ye:
+  connect_uri: null
+  name: Christine Ye
+  photo_uri: '/assets/images/members/Ye, Christine.jpg'
+  status: null
+Dylan Slattery:
+  connect_uri: null
+  name: Dylan Slattery
+  photo_uri: '/assets/images/members/Slattery, Dylan.jpg'
+  status: null
+Edward Oakes:
+  connect_uri: null
+  name: Edward Oakes
+  photo_uri: '/assets/images/members/Oakes, Edward.jpg'
+  status: null
+Esmeralda Jinez:
+  connect_uri: null
+  name: Esmeralda Jinez
+  photo_uri: '/assets/images/members/Jinez, Esmeralda.jpg'
+  status: null
 Ethan Erdmann:
+  connect_uri: null
   name: Ethan Erdmann
+  photo_uri: '/assets/images/members/Erdmann, Ethan.jpg'
   status: Forester for the DNR of Minnesota
-  photo_uri: /assets/images/pic02.jpg
-  connect_uri: www.twitter.com/fishmonger
-
+Forest Olsen:
+  connect_uri: null
+  name: Forest Olsen
+  photo_uri: '/assets/images/members/Olsen, Forest.jpg'
+  status: null
+Jack Heinzelmann:
+  connect_uri: null
+  name: Jack Heinzelmann
+  photo_uri: '/assets/images/members/Heinzelmann, Jack.jpg'
+  status: null
+Jacob Fostner:
+  connect_uri: null
+  name: Jacob Fostner
+  photo_uri: '/assets/images/members/Fostner, Jacob.jpg'
+  status: null
+James Matanle:
+  connect_uri: null
+  name: James Matanle
+  photo_uri: '/assets/images/members/Matanle, James.jpg'
+  status: null
+Jared Zingsheim:
+  connect_uri: null
+  name: Jared Zingsheim
+  photo_uri: '/assets/images/members/Zingsheim, Jared.jpg'
+  status: null
+Joe Repischak:
+  connect_uri: null
+  name: Joe Repischak
+  photo_uri: '/assets/images/members/Repischak, Joe.jpg'
+  status: null
+Jonah Mandli:
+  connect_uri: null
+  name: Jonah Mandli
+  photo_uri: '/assets/images/members/Mandli, Jonah.jpg'
+  status: null
+Joseph Ciardelli:
+  connect_uri: null
+  name: Joseph Ciardelli
+  photo_uri: '/assets/images/members/Ciardelli, Joseph.jpg'
+  status: null
+Joseph Dailey:
+  connect_uri: null
+  name: Joseph Dailey
+  photo_uri: '/assets/images/members/Dailey, Joseph.jpg'
+  status: Softward Engineer at Facebook
+Josh Howell:
+  connect_uri: null
+  name: Josh Howell
+  photo_uri: '/assets/images/members/Howell, Josh.jpg'
+  status: null
+Liam O'Brien:
+  connect_uri: null
+  name: Liam O'Brien
+  photo_uri: '/assets/images/members/OBrien, Liam.jpg'
+  status: null
 Lucas Mullens:
+  connect_uri: null
   name: Lucas Mullens
+  photo_uri: null
   status: Software Engineer at Google
-  photo_uri: /assets/images/pic03.jpg
-  connect_uri: plus.google.com/lmullens
-
+Luke Huybrecht:
+  connect_uri: null
+  name: Luke Huybrecht
+  photo_uri: '/assets/images/members/Huybrecht, Luke.jpg'
+  status: null
+Maggie O'Leary:
+  connect_uri: null
+  name: Maggie O'Leary
+  photo_uri: '/assets/images/members/OLeary, Maggie.jpg'
+  status: null
 Matthew Kramer:
-  name: Matthew Kramer
-  status: UW Senior in Computer Science
-  photo_uri: /assets/images/pic04.jpg
   connect_uri: linkedin.com/mkramer
+  name: Matthew Kramer
+  photo_uri: /assets/images/member_missing.jpg
+  status: UW Senior in Computer Science
+Matthew Nicol:
+  connect_uri: null
+  name: Matthew Nicol
+  photo_uri: '/assets/images/members/Nicol, Matthew.jpg'
+  status: null
+Michael Mueller:
+  connect_uri: null
+  name: Michael Mueller
+  photo_uri: '/assets/images/members/Mueller, Michael.jpg'
+  status: null
+Nicholas LePar:
+  connect_uri: null
+  name: Nicholas LePar
+  photo_uri: '/assets/images/members/LePar, Nicholas.jpg'
+  status: null
+Nicholas Meythaler:
+  connect_uri: null
+  name: Nicholas Meythaler
+  photo_uri: '/assets/images/members/Meythaler, Nicholas.jpg'
+  status: null
+Reid Beatty:
+  connect_uri: null
+  name: Reid Beatty
+  photo_uri: '/assets/images/members/Beatty, Reid.jpg'
+  status: null
+Richard Feng:
+  connect_uri: null
+  name: Richard Feng
+  photo_uri: '/assets/images/members/Feng, Richard.jpg'
+  status: null
+Samuel Julson:
+  connect_uri: null
+  name: Samuel Julson
+  photo_uri: '/assets/images/members/Julson, Samuel.jpg'
+  status: null
+Sarah Vasher:
+  connect_uri: null
+  name: Sarah Vasher
+  photo_uri: '/assets/images/members/Vasher, Sarah.jpg'
+  status: null
+Shannon Wang:
+  connect_uri: null
+  name: Shannon Wang
+  photo_uri: '/assets/images/members/Wang, Shannon.jpg'
+  status: null
+Shyamal Anadkat:
+  connect_uri: null
+  name: Shyamal Anadkat
+  photo_uri: '/assets/images/members/Anadkat, Shyamal.jpg'
+  status: null
+Tiffany Voss:
+  connect_uri: null
+  name: Tiffany Voss
+  photo_uri: '/assets/images/members/Voss, Tiffany.jpg'
+  status: null
+Tyler Nettesheim:
+  connect_uri: null
+  name: Tyler Nettesheim
+  photo_uri: '/assets/images/members/Nettesheim, Tyler.jpg'
+  status: null
+Wayne Chew:
+  connect_uri: null
+  name: Wayne Chew
+  photo_uri: '/assets/images/members/Chew, Wayne.jpg'
+  status: null
+Yunhe Liu:
+  connect_uri: null
+  name: Yunhe 'Amos' Liu
+  photo_uri: null
+  status: null

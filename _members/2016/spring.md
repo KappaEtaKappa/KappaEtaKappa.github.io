@@ -1,0 +1,40 @@
+---
+members:
+- Joseph Dailey
+- Josh Howell
+- Tiffany Voss
+- Ethan Erdmann
+- Matthew Nicol
+- Reid Beatty
+- Yunhe Liu
+- Jack Heinzelmann
+- Jonah Mandli
+- Alex Bare
+- Allen Kempke
+- Joseph Ciardelli
+- Maggie O'Leary
+- Nicholas Meythaler
+- Andrew Zaruba
+- Nicholas LePar
+- Wayne Chew
+- Dylan Slattery
+- Esmeralda Jinez
+- Jared Zingsheim
+- Christine Ye
+- Shannon Wang
+- Alex Elliott
+- Edward Oakes
+- James Matanle
+- Luke Huybrecht
+- Samuel Julson
+- Calvin Rueb
+- Jacob Fostner
+- Shyamal Anadkat
+- Forest Olsen
+- Sarah Vasher
+- Tyler Nettesheim
+- Michael Meuller
+- Richard Feng
+- Liam O'Brien
+- Jaron Rosenau
+---
