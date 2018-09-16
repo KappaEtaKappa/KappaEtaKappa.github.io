@@ -1,5 +1,14 @@
 ---
 title: Kappa Eta Kappa, Delta Chapter
+
+President: Steven Ritter
+Vice_President: Tom Powers
+Treasurer: Stewart Hagen
+Secretary: Matthew Strimaitis
+Publicity_Chair: Tiger He
+Pledge_Trainer: Ali Zaidi
+House_Steward: Samuel Julson
+Social_Chair: Matthew Kramer
 ---
 {% include header.html banner=true %}
 <!-- Main -->
@@ -20,90 +29,23 @@ title: Kappa Eta Kappa, Delta Chapter
       </footer>
     </section>
 
-        <!-- Member Highlights -->
-        <section>
-          <header class="major">
-            <h2>Highlighted Members</h2>
-          </header>
-          <div class="row">
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></a>
-                <header>
-                  <h3>Ipsum feugiat et dolor</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></a>
-                <header>
-                  <h3>Sed etiam lorem nulla</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt="" /></a>
-                <header>
-                  <h3>Consequat et tempus</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-          </div>
-          <div class="row">
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic05.jpg" alt="" /></a>
-                <header>
-                  <h3>Blandit sed adipiscing</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic06.jpg" alt="" /></a>
-                <header>
-                  <h3>Etiam nisl consequat</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-            <div class="4u">
-              <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic07.jpg" alt="" /></a>
-                <header>
-                  <h3>Dolore nisl feugiat</h3>
-                </header>
-                <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-                <footer>
-                  <a href="#" class="button alt">Find out more</a>
-                </footer>
-              </section>
-            </div>
-          </div>
-        </section>
+    <!-- Member Highlights -->
+    <section>
+      <header class="major">
+        <h2>Highlighted Members</h2>
+      </header>
+      <div class="leadership-grid" style="margin-bottom:50px;">
+        {% include member_card.html role='President' id=page.President %}
+        {% include member_card.html role='Vice President' id=page.Vice_President %}
+        {% include member_card.html role='Pledge Trainer' id=page.Pledge_Trainer %}
+        {% include member_card.html role='House Steward' id=page.House_Steward %}
       </div>
-    </div>
+      <div class="order-grid">
+        {% include member_card.html role='Treasurer' id=page.Treasurer %}
+        {% include member_card.html role='Publicity Chair' id=page.Publicity_Chair %}
+        {% include member_card.html role='Social Chair' id=page.Social_Chair %}
+        {% include member_card.html role='Secretary' id=page.Secretary %}
+      </div>
   </div>
 </div>
 {% include footer.html %}

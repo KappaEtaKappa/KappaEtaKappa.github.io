@@ -930,12 +930,40 @@
 	}
 
 	.updates-grid > a > section.box,
+	.leadership-grid > section.box,
+	.order-grid > section.box,
 	.members-grid > section.box {
 		margin-bottom: 0;
 	}
-
 
 .post-card:hover h3:first-child {
 	text-decoration: underline;
 	text-decoration-color: #7b4ead;
 }
+
+.leadership-grid {
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr 2fr;
+	grid-template-rows: 0.2fr 1fr;
+	grid-gap: 50px;
+	grid-template-areas:
+		". President Vice-President ."
+		"House-Steward President Vice-President Pledge-Trainer";
+}
+
+.order-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	grid-gap: 40px;
+}
+
+	.leadership-grid > section.box,
+	.order-grid > section.box {
+		display: inline-grid;
+	}
+
+	.leadership-grid > .President {grid-area: President;}
+	.leadership-grid > .Vice-President {grid-area: Vice-President;}
+	.leadership-grid > .Pledge-Trainer {grid-area: Pledge-Trainer;}
+	.leadership-grid > .House-Steward {grid-area: House-Steward;}

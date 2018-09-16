@@ -1,34 +1,38 @@
 {% assign member = site.data.member_bios[include.id] %}
+{% capture connect %}
+{% assign connect_class = 'alt fa-link' %}
+{% if member.connect_uri contains 'facebook.com' %}
+  {% assign connect_class = 'fa-facebook' %}
+{% endif %}
+{% if member.connect_uri contains 'twitter.com' %}
+  {% assign connect_class = 'fa-twitter' %}
+{% endif %}
+{% if member.connect_uri contains 'dribble.com' %}
+  {% assign connect_class = 'fa-dribble' %}
+{% endif %}
+{% if member.connect_uri contains 'linkedin.com' %}
+  {% assign connect_class = 'fa-linkedin' %}
+{% endif %}
+{% if member.connect_uri contains 'google.com' %}
+  {% assign connect_class = 'fa-google-plus' %}
+{% endif %}
+{% if member.connect_uri contains 'tumblr.com' %}
+  {% assign connect_class = 'fa-tumblr' %}
+{% endif %}
+<a href="#" class="button icon {{connect_class}}">Connect</a>
+{% endcapture %}
+
+
+
 {% if member != null %}
-  <section class="box">
+  <section class="box {{include.role | replace:' ', '-'}}">
     {% assign photo = member.photo_uri | default: '/assets/images/pic05.jpg' %}
     <span href="#" class="image featured"><img src="{{ photo }}" alt="" /></span>
     <header>
       <h3>{{member.name}}</h3>
-      <p>{{member.status}}</p>
+      <p>{{include.role | default:member.status}}</p>
     </header>
-    <footer>
-      {% assign connect_class = 'alt fa-link' %}
-      {% if member.connect_uri contains 'facebook.com' %}
-        {% assign connect_class = 'fa-facebook' %}
-      {% endif %}
-      {% if member.connect_uri contains 'twitter.com' %}
-        {% assign connect_class = 'fa-twitter' %}
-      {% endif %}
-      {% if member.connect_uri contains 'dribble.com' %}
-        {% assign connect_class = 'fa-dribble' %}
-      {% endif %}
-      {% if member.connect_uri contains 'linkedin.com' %}
-        {% assign connect_class = 'fa-linkedin' %}
-      {% endif %}
-      {% if member.connect_uri contains 'google.com' %}
-        {% assign connect_class = 'fa-google-plus' %}
-      {% endif %}
-      {% if member.connect_uri contains 'tumblr.com' %}
-        {% assign connect_class = 'fa-tumblr' %}
-      {% endif %}
-      <a href="#" class="button icon {{connect_class}}">Connect</a>
-    </footer>
+    <footer>{{connect}}</footer>
   </section>
 {% else %}
   {% if site.__DEV__ == true %}

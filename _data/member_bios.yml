@@ -8,6 +8,11 @@ Alex Elliott:
   name: Alex Elliott
   photo_uri: '/assets/images/members/Elliott, Alex.jpg'
   status: null
+Ali Zaidi:
+  connect_uri: null
+  name: Ali Zaidi
+  photo_uri: null
+  status: null
 Allen Kempke:
   connect_uri: null
   name: Allen 'A.J.' Kempke
@@ -126,12 +131,17 @@ Maggie O'Leary:
 Matthew Kramer:
   connect_uri: linkedin.com/mkramer
   name: Matthew Kramer
-  photo_uri: /assets/images/member_missing.jpg
+  photo_uri: null
   status: UW Senior in Computer Science
 Matthew Nicol:
   connect_uri: null
   name: Matthew Nicol
   photo_uri: '/assets/images/members/Nicol, Matthew.jpg'
+  status: null
+Matthew Strimaitis:
+  connect_uri: null
+  name: Matthew Strimaitis
+  photo_uri: null
   status: null
 Michael Mueller:
   connect_uri: null
@@ -178,10 +188,30 @@ Shyamal Anadkat:
   name: Shyamal Anadkat
   photo_uri: '/assets/images/members/Anadkat, Shyamal.jpg'
   status: null
+Steven Ritter:
+  connect_uri: null
+  name: Steven Ritter
+  photo_uri: null
+  status: null
+Stewart Hagen:
+  connect_uri: null
+  name: Stewart Hagen
+  photo_uri: null
+  status: null
 Tiffany Voss:
   connect_uri: null
   name: Tiffany Voss
   photo_uri: '/assets/images/members/Voss, Tiffany.jpg'
+  status: null
+Tiger He:
+  connect_uri: null
+  name: Tiger He
+  photo_uri: null
+  status: null
+Tom Powers:
+  connect_uri: null
+  name: Tom Powers
+  photo_uri: null
   status: null
 Tyler Nettesheim:
   connect_uri: null
