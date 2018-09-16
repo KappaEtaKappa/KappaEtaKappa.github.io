@@ -27,14 +27,15 @@
 
 
 {% if member != null %}
-  <section class="box {{include.role | replace:' ', '-'}}">
+  <section class="box member-box {{include.role | replace:' ', '-'}}">
     {% assign photo = member.photo_uri | default: '/assets/images/pic05.jpg' %}
-    <span href="#" class="image featured"><img src="{{ photo }}" alt="" /></span>
-    <header>
-      <h3>{{member.name}}</h3>
-      <p>{{include.role | default:member.status}}</p>
-    </header>
-    <footer>{{connect}}</footer>
+    <span class="image full" style="background-image:url('{{ photo }}')"></span>
+    <h3>{{member.name}}</h3>
+    {{assign desc = include.role | default:member.status}}
+    {% if desc != null %}
+      <p>{{desc}}</p>
+    {% endif %}
+    {{connect}}
   </section>
 {% else %}
   {% if site.__DEV__ == true %}

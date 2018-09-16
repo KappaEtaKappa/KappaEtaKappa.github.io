@@ -332,6 +332,37 @@
 				width: auto;
 			}
 
+		.member-box.box
+		{
+			padding:1.75em 1.75em 1.75em 1.75em;
+			display: grid;
+			grid-template-rows: auto min-content min-content min-content;
+			grid-gap: 4px;
+		}
+
+			.member-box.box .image.full
+			{
+				margin: -1.75em -1.75em 0em -1.75em;
+				left: 0;
+				top: 0;
+				background-repeat: no-repeat;
+		    background-size: cover;
+		    background-position: center;
+				min-height: 26em;
+			}
+
+			.member-box.box h3 {
+				margin-top: 0.5em;
+			}
+
+			.member-box.box a.button {
+				margin-top: 0.5em;
+			}
+
+	.member-highlights .member-box.box .image.full {
+		min-height: 15em;
+	}
+
 	/* Button */
 
 		input[type="button"],
@@ -415,6 +446,7 @@
 
 			.button.icon
 			{
+				font-family: "Source Sans Pro";
 			}
 
 				.button.icon:before
