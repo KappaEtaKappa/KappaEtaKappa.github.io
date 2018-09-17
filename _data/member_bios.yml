@@ -44,17 +44,17 @@ Dylan Slattery:
   photo_uri: '/assets/images/members/Slattery, Dylan.jpg'
   status: null
 Edward Oakes:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/edward-oakes-8bb3b0a6/
   name: Edward Oakes
   photo_uri: '/assets/images/members/Oakes, Edward.jpg'
-  status: null
+  status: PhD Student at UC Berkeley Electrical Engineering & Computer Sciences (EECS)
 Esmeralda Jinez:
   connect_uri: null
   name: Esmeralda Jinez
   photo_uri: '/assets/images/members/Jinez, Esmeralda.jpg'
   status: null
 Ethan Erdmann:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/eaerdmann/
   name: Ethan Erdmann
   photo_uri: '/assets/images/members/Erdmann, Ethan.jpg'
   status: Forester for the DNR of Minnesota
@@ -224,7 +224,7 @@ Wayne Chew:
   photo_uri: '/assets/images/members/Chew, Wayne.jpg'
   status: null
 Yunhe Liu:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/yunhe-amos-liu-96b34068/'
   name: Yunhe 'Amos' Liu
   photo_uri: null
   status: null

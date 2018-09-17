@@ -15,7 +15,6 @@
 	body
 	{
 		background: #252122;
-		background-image: url('images/bg02.png');
 	}
 
 		body.is-loading * {
@@ -327,6 +326,18 @@
 				width: 100%;
 			}
 
+		article.info-text > p
+		{
+			text-align: justify;
+			text-indent: 2em;
+			margin-bottom: 0.4em;
+		}
+		article.info-text > h2
+		{
+			text-align: center;
+			margin-bottom: 0.8em;
+		}
+
 	/* Box */
 
 		.box
@@ -362,6 +373,10 @@
 
 			.member-box.box h3 {
 				margin-top: 0.5em;
+			}
+
+			.member-box.box p {
+				margin: 0.1em 0 0 0;
 			}
 
 			.member-box.box a.button {
@@ -409,7 +424,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background: ##ffdf44;
+				background: #ffdf44;
 			}
 
 			input[type="button"].alt,
@@ -717,16 +732,6 @@
 				ul.social li a.fa-linkedin:hover, a.button.icon.fa-linkedin:hover
 					{ background: #1075a9; }
 
-				ul.social li a.fa-tumblr, a.button.icon.fa-tumblr
-					{ background: #2b4661; }
-				ul.social li a.fa-tumblr:hover, a.button.icon.fa-tumblr:hover
-					{ background: #3b5671; }
-
-				ul.social li a.fa-google-plus, a.button.icon.fa-google-plus
-					{ background: #da2713; }
-				ul.social li a.fa-google-plus:hover, a.button.icon.fa-google-plus
-					{ background: #ea3723; }
-
 				ul.social li a.fa-github, a.button.icon.fa-github
 					{ background: #171515; }
 				ul.social li a.fa-github:hover, a.button.icon.fa-github
@@ -826,9 +831,9 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('../images/pic01.jpg');
+		background: #CCE8F4 url('/assets/images/banquet.jpg');
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: 105% auto;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -836,7 +841,7 @@
 		#banner header
 		{
 			background-color: #252122;
-			background-color: rgba(34,30,31,0.98);
+			background-color: rgba(34,30,31,0.80);
 		}
 
 			#banner header h2
@@ -873,7 +878,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #f7f7f7;
 	}
 
 		#main-wrapper:before
@@ -883,7 +888,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -896,7 +900,7 @@
 			#main-wrapper .major h2,
 			#main-wrapper .major i
 			{
-				background: #f7f7f7 url('images/bg02.png');
+				background: #f7f7f7;
 			}
 
 	#footer-wrapper
@@ -912,7 +916,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
