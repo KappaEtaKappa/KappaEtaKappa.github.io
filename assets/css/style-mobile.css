@@ -318,7 +318,7 @@
 	{
 		margin: 2em 0 4em 0 !important;
 		padding: 6em 0;
-		background-size: cover;
+		background-size: cover !important;
 	}
 
 		#banner header
