@@ -831,7 +831,7 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('/assets/images/banquet.jpg');
+		background: #000 url('/assets/images/banquet.jpg');
 		background-position: center center;
 		background-size: 105% auto;
 		background-repeat: no-repeat;
