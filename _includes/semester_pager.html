@@ -33,7 +33,10 @@
 
 
     {% assign viewed_semester = semesters[semester_index].url | split:"/" %}
-    <h2>{{viewed_semester[3] | capitalize}} {{viewed_semester[2]}} {{viewed_semester[1] | capitalize}}</h2>
+    <h2>
+      {{viewed_semester[3] | replace: '.html', '' | capitalize}}
+      {{viewed_semester[2]}} {{viewed_semester[1] | capitalize}}
+    </h2>
 
 
     {% if next_semester_index <= last_semester_index %}
