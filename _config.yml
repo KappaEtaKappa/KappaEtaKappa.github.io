@@ -32,10 +32,8 @@ markdown: kramdown
 collections:
   members:
     output: true
-    permalink: /:collection/:path
   events:
     output: true
-    permalink: /:collection/:path
 
 defaults:
   -
