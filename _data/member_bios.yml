@@ -1,50 +1,50 @@
 Alex Bare:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/alex-bare-3a30a450/'
   name: Alex Bare
   photo_uri: '/assets/images/members/Bare, Alex.jpg'
-  status: null
+  status: Engineer at Oshkosh Corporation
 Alex Elliott:
-  connect_uri: null
+  connect_uri: Alex Elliott
   name: Alex Elliott
   photo_uri: '/assets/images/members/Elliott, Alex.jpg'
-  status: null
+  status: 'https://www.linkedin.com/in/alex-elliott-a7717b82/'
 Ali Zaidi:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/ali-zaidi-940b49128/'
   name: Ali Zaidi
   photo_uri: null
-  status: null
+  status: Computer Science Student
 Allen Kempke:
   connect_uri: null
   name: Allen 'A.J.' Kempke
   photo_uri: '/assets/images/members/Kempke, Allen.jpg'
   status: null
 Andrew Zaruba:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/andrew-zaruba-890b71112/'
   name: Andrew Zaruba
   photo_uri: '/assets/images/members/Zaruba, Andrew.jpg'
-  status: null
+  status: Software Engineer
 Calvin Rueb:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/calrueb/'
   name: Calvin Rueb
   photo_uri: '/assets/images/members/Rueb, Calvin.jpg'
-  status: null
+  status: Software Engineer at Pinterest
 Christian Elowsky:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/christian-elowsky-0026b0155/'
   name: Christian Elowsky
   photo_uri: '/assets/images/members/Elowsky, Christian.jpg'
-  status: null
+  status: Project Manager at Hardin Design & Development
 Christine Ye:
-  connect_uri: null
-  name: Christine Ye
+  connect_uri: 'https://www.linkedin.com/in/yaying-ye-25803a115/'
+  name: Yaying 'Christine' Ye
   photo_uri: '/assets/images/members/Ye, Christine.jpg'
-  status: null
+  status: Student at UCLA
 Dylan Slattery:
   connect_uri: null
   name: Dylan Slattery
   photo_uri: '/assets/images/members/Slattery, Dylan.jpg'
-  status: null
+  status: Student
 Edward Oakes:
-  connect_uri: https://www.linkedin.com/in/edward-oakes-8bb3b0a6/
+  connect_uri: 'https://www.linkedin.com/in/edward-oakes-8bb3b0a6/'
   name: Edward Oakes
   photo_uri: '/assets/images/members/Oakes, Edward.jpg'
   status: PhD Student at UC Berkeley Electrical Engineering & Computer Sciences (EECS)
@@ -54,69 +54,69 @@ Esmeralda Jinez:
   photo_uri: '/assets/images/members/Jinez, Esmeralda.jpg'
   status: null
 Ethan Erdmann:
-  connect_uri: https://www.linkedin.com/in/eaerdmann/
+  connect_uri: 'https://www.linkedin.com/in/eaerdmann/'
   name: Ethan Erdmann
   photo_uri: '/assets/images/members/Erdmann, Ethan.jpg'
   status: Forester for the DNR of Minnesota
 Forest Olsen:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/forest-olsen/'
   name: Forest Olsen
   photo_uri: '/assets/images/members/Olsen, Forest.jpg'
-  status: null
+  status: Software Developer at Konrad Group
 Jack Heinzelmann:
   connect_uri: null
   name: Jack Heinzelmann
   photo_uri: '/assets/images/members/Heinzelmann, Jack.jpg'
-  status: null
+  status: Desktop Support Analyst at WPS Health Solutions
 Jacob Fostner:
   connect_uri: null
   name: Jacob Fostner
   photo_uri: '/assets/images/members/Fostner, Jacob.jpg'
   status: null
 James Matanle:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/james-matanle-37089783/'
   name: James Matanle
   photo_uri: '/assets/images/members/Matanle, James.jpg'
-  status: null
+  status: Software Engineer at Adaptly
 Jared Zingsheim:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/jared-zingsheim-0a087a70/'
   name: Jared Zingsheim
   photo_uri: '/assets/images/members/Zingsheim, Jared.jpg'
-  status: null
+  status: System Engineer for Motorola Solutions'​ Coverage Design Team
 Joe Repischak:
   connect_uri: null
   name: Joe Repischak
   photo_uri: '/assets/images/members/Repischak, Joe.jpg'
   status: null
 Jonah Mandli:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/jonah-mandli-4b0731a5/'
   name: Jonah Mandli
   photo_uri: '/assets/images/members/Mandli, Jonah.jpg'
-  status: null
+  status: Web Developer at Hardin Design and Development
 Joseph Ciardelli:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/joeciardelli/'
   name: Joseph Ciardelli
   photo_uri: '/assets/images/members/Ciardelli, Joseph.jpg'
-  status: null
+  status: Software Developer/Intern en SmartUQ
 Joseph Dailey:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/daileyjoe/'
   name: Joseph Dailey
   photo_uri: '/assets/images/members/Dailey, Joseph.jpg'
   status: Softward Engineer at Facebook
 Josh Howell:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/josh-howell-0bb93581/'
   name: Josh Howell
   photo_uri: '/assets/images/members/Howell, Josh.jpg'
-  status: null
+  status: Vehicle Performance and Validation at Navistar Inc
 Liam O'Brien:
   connect_uri: null
   name: Liam O'Brien
   photo_uri: '/assets/images/members/OBrien, Liam.jpg'
-  status: null
+  status: Electrical Engineering Student
 Lucas Mullens:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/lucas-mullens-33a2232b/'
   name: Lucas Mullens
-  photo_uri: null
+  photo_uri: '/assets/images/members/Mullens, Lucas.jpg'
   status: Software Engineer at Google
 Luke Huybrecht:
   connect_uri: null
@@ -127,104 +127,104 @@ Maggie O'Leary:
   connect_uri: null
   name: Maggie O'Leary
   photo_uri: '/assets/images/members/OLeary, Maggie.jpg'
-  status: null
+  status: Software Engineer at StorageCraft
 Matthew Kramer:
-  connect_uri: linkedin.com/mkramer
+  connect_uri: 'https://www.linkedin.com/in/matthewthekramer/'
   name: Matthew Kramer
   photo_uri: null
-  status: UW Senior in Computer Science
+  status: Web Development Intern at Hardin Design and Development
 Matthew Nicol:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/matthew-nicol-1b9655a4/'
   name: Matthew Nicol
   photo_uri: '/assets/images/members/Nicol, Matthew.jpg'
-  status: null
+  status: Software Contractor at Thomson Reuters
 Matthew Strimaitis:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/matthew-strimaitis-b21103112/'
   name: Matthew Strimaitis
   photo_uri: null
-  status: null
+  status: iOS Developer at UW Madison - AVIATR Lab
 Michael Mueller:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/michael-mueller-5ab08a108/'
   name: Michael Mueller
   photo_uri: '/assets/images/members/Mueller, Michael.jpg'
-  status: null
+  status: Software Developer
 Nicholas LePar:
   connect_uri: null
   name: Nicholas LePar
   photo_uri: '/assets/images/members/LePar, Nicholas.jpg'
   status: null
 Nicholas Meythaler:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/nicholas-meythaler-35844499/'
   name: Nicholas Meythaler
   photo_uri: '/assets/images/members/Meythaler, Nicholas.jpg'
-  status: null
+  status: Engineer
 Reid Beatty:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/reid-beatty-222a9316a/'
   name: Reid Beatty
   photo_uri: '/assets/images/members/Beatty, Reid.jpg'
-  status: null
+  status: Manufacturing Engineer at Miniature Precision Components
 Richard Feng:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/rzfeng/'
   name: Richard Feng
   photo_uri: '/assets/images/members/Feng, Richard.jpg'
-  status: null
+  status: Software Engineering Intern at Target
 Samuel Julson:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/samuel-julson-a5466b107/'
   name: Samuel Julson
   photo_uri: '/assets/images/members/Julson, Samuel.jpg'
-  status: null
+  status: Student
 Sarah Vasher:
   connect_uri: null
   name: Sarah Vasher
   photo_uri: '/assets/images/members/Vasher, Sarah.jpg'
-  status: null
+  status: Studies at The University of Tulsa
 Shannon Wang:
   connect_uri: null
-  name: Shannon Wang
+  name: Shannon Wang (王舒扬)
   photo_uri: '/assets/images/members/Wang, Shannon.jpg'
   status: null
 Shyamal Anadkat:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/zostale/'
   name: Shyamal Anadkat
   photo_uri: '/assets/images/members/Anadkat, Shyamal.jpg'
-  status: null
+  status: Software Engineer at Grubhub
 Steven Ritter:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/steven-ritter-b37881b3/'
   name: Steven Ritter
-  photo_uri: null
-  status: null
+  photo_uri: '/assets/images/members/Ritter, Steven.jpg'
+  status: Data Acquisition at BadgerLoop
 Stewart Hagen:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/stewart-hagen-506493132/'
   name: Stewart Hagen
-  photo_uri: null
-  status: null
+  photo_uri: '/assets/images/members/Hagen, Stewart.jpg'
+  status: Computer Science and Mathematics Student
 Tiffany Voss:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/tiffany-voss-80258859/'
   name: Tiffany Voss
   photo_uri: '/assets/images/members/Voss, Tiffany.jpg'
-  status: null
+  status: Software Engineer at Qualcomm
 Tiger He:
   connect_uri: null
   name: Tiger He
   photo_uri: null
-  status: null
+  status: 'UW Student, Working at Culver Academies'
 Tom Powers:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/in/tpowers4/'
   name: Tom Powers
-  photo_uri: null
-  status: null
+  photo_uri: '/assets/images/members/Powers, Tom.jpg'
+  status: Student
 Tyler Nettesheim:
   connect_uri: null
   name: Tyler Nettesheim
   photo_uri: '/assets/images/members/Nettesheim, Tyler.jpg'
-  status: null
+  status: Student
 Wayne Chew:
-  connect_uri: null
+  connect_uri: 'https://www.linkedin.com/mynetwork/invite-sent/waynechew/?isSendInvite=true'
   name: Wayne Chew
   photo_uri: '/assets/images/members/Chew, Wayne.jpg'
-  status: null
+  status: 'Software Engineer, Machine Learning, Data Science'
 Yunhe Liu:
   connect_uri: 'https://www.linkedin.com/in/yunhe-amos-liu-96b34068/'
   name: Yunhe 'Amos' Liu
   photo_uri: null
-  status: null
+  status: Studies at Cornell University
