@@ -60,6 +60,7 @@ defaults:
 paginate: 3
 paginate_path: /posts/page:num/
 
+excerpt_separator: <!-- More -->
 
 # The following items will not be processed
 exclude:

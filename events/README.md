@@ -24,6 +24,8 @@ address: >- # In YAML, `>-` means the following is multiline text
 ---
 
 Join us for our semi-annual...
+# Note: Use `<!-- More -->` to tell Jekyll where to truncate excerpts for use in `post_card.html`
+# Note: Don't put links before the `<!-- More -->` directive (bug)
 ```
 
 **Note:** Jekyll requires all posts to have front matter, even if there's no fields set. Otherwise the file won't be parsed.
