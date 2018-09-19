@@ -472,6 +472,6 @@
 	grid-template-rows: auto auto;
 	grid-gap: 0 50px;
 	grid-template-areas:
-		"What-is-this Contact-us"
+		"Contact-us Contact-us"
 		"Copyright Copyright";
 }

@@ -4,64 +4,88 @@
     <!-- ...content -->
 {% endcomment %}
 
-    <div id="footer-wrapper" class="container footer-grid {% if page.show_events == false %}no-events{% endif %}">
-      {% if page.show_events != false %}
-        <section class="footer-Events">
+{% assign no_events_class = 'no-events' %}
+{% comment %}<!-- Some pages explicitly do not show events. -->{% endcomment %}
+{% if page.show_events != false %}
+  {% capture events %}
+    <section class="footer-Events">
+      <header>
+        <h2>Upcomming Events</h2>
+      </header>
+      <ul class="dates">
+        {% assign events_shown = 0 %}
+        {% for event in site.events %}
+
+          {% comment %}<!-- Only show upcomming events. -->{% endcomment %}
+          {% if event.date >= site.time %}
+
+            {% comment %}<!-- Show at most 3 events. -->{% endcomment %}
+            {% if events_shown <= 2 %}
+              {% include event_card.html event=event %}
+              {% assign events_shown = events_shown | plus:1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endcapture %}
+{% endif %}
+
+{% if events_shown > 0 %}
+  {% assign no_events_class = '' %}
+{% else %}
+  {% capture events %}{% endcapture %}
+{% endif %}
+
+    <div id="footer-wrapper" class="container footer-grid {{ no_events_class }}">
+
+      {{events}}
+      <section class="footer-Contact-us">
+        <section>
           <header>
-            <h2>Upcomming Events</h2>
+            <h2>Who is Kappa Eta Kappa?</h2>
           </header>
-          <ul class="dates">
-          {% for event in site.events %}
-            {% include event_card.html event=event %}
-          {% endfor %}
+          <span class="image"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" height="168" width="168" /></span>
+          <p>
+            <strong>Kappa Eta Kappa</strong>, or <strong><i>KHK</i></strong>, is a national, professional, co-ed electrical and computer engineering fraternity. Delta chapter is an official student organization within the University of Wisconsin - Madison.
+          </p>
+          <section class="footer-learn-more">
+            <a class="button" href="http://daa.khk.org">Delta Alumni Association</a>
+            <a class="button" href="http://khk.org">National Association</a>
+          </section>
+        </section>
+
+        <section>
+          <header>
+            <h2>Contact us</h2>
+          </header>
+          <ul class="social">
+            <li><a class="icon fa-facebook" href="https://www.facebook.com/khk.delta"><span class="label">Facebook</span></a></li>
+            <li><a class="icon fa-twitter" href="https://twitter.com/khkdelta"><span class="label">Twitter</span></a></li>
+            <li><a class="icon fa-linkedin" href="https://www.linkedin.com/groups/987477/"><span class="label">LinkedIn</span></a></li>
+            <li><a class="icon fa-github" href="https://github.com/kappaetakappa"><span class="label">Github</span></a></li>
+          </ul>
+          <ul class="contact">
+            <li>
+              <h3>Address</h3>
+              <p>
+                114 N Orchard St.<br />
+                Madison, WI 53715<br />
+              </p>
+            </li>
+            <li>
+              <h3>Mail</h3>
+              <p><a href="#">webmaster@delta.khk.org</a></p>
+              <p><a href="#">president@delta.khk.org</a></p>
+              <p><a href="#">secretary@delta.khk.org</a></p>
+              <p><a href="#">treasurer@delta.khk.org</a></p>
+            </li>
+            <li>
+              <h3>Phone</h3>
+              <p>(608) 251-7545</p>
+            </li>
           </ul>
         </section>
-      {% endif %}
-
-      <section class="footer-What-is-this">
-        <header>
-          <h2>Who is Kappa Eta Kappa?</h2>
-        </header>
-        <span class="image"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="logo" height="168" width="168" /></span>
-        <p>
-          <strong>Kappa Eta Kappa</strong>, or <strong><i>KHK</i></strong>, is a national, professional, co-ed electrical and computer engineering fraternity. Delta chapter is an official student organization within the University of Wisconsin - Madison.
-        </p>
-        <footer class="footer-learn-more">
-          <a class="button" href="http://daa.khk.org">Delta Alumni Association</a>
-          <a class="button" href="http://khk.org">National Association</a>
-        </footer>
-      </section>
-
-      <section class="footer-Contact-us">
-        <header>
-          <h2>Contact us</h2>
-        </header>
-        <ul class="social">
-          <li><a class="icon fa-facebook" href="https://www.facebook.com/khk.delta"><span class="label">Facebook</span></a></li>
-          <li><a class="icon fa-twitter" href="https://twitter.com/khkdelta"><span class="label">Twitter</span></a></li>
-          <li><a class="icon fa-linkedin" href="https://www.linkedin.com/groups/987477/"><span class="label">LinkedIn</span></a></li>
-          <li><a class="icon fa-github" href="https://github.com/kappaetakappa"><span class="label">Github</span></a></li>
-        </ul>
-        <ul class="contact">
-          <li>
-            <h3>Address</h3>
-            <p>
-              114 N Orchard St.<br />
-              Madison, WI 53715<br />
-            </p>
-          </li>
-          <li>
-            <h3>Mail</h3>
-            <p><a href="#">webmaster@delta.khk.org</a></p>
-            <p><a href="#">president@delta.khk.org</a></p>
-            <p><a href="#">secretary@delta.khk.org</a></p>
-            <p><a href="#">treasurer@delta.khk.org</a></p>
-          </li>
-          <li>
-            <h3>Phone</h3>
-            <p>(608) 251-7545</p>
-          </li>
-        </ul>
       </section>
 
       <section id="copyright" class="footer-Copyright">

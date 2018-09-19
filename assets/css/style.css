@@ -1078,16 +1078,22 @@
 	grid-template-rows: auto auto;
 	grid-gap: 50px;
 	grid-template-areas:
-		"Events What-is-this"
+		"Events Contact-us"
 		"Copyright Contact-us";
 }
 
 .footer-grid > section.footer-Events {grid-area: Events;}
-.footer-grid > section.footer-What-is-this {grid-area: What-is-this;}
 .footer-grid > section.footer-Contact-us {grid-area: Contact-us;}
 .footer-grid > section.footer-Copyright {grid-area: Copyright;}
 
 .footer-learn-more {
 	display: grid;
 	grid-gap: 1.0em;
+}
+
+.footer-grid.no-events > .footer-Contact-us {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 0 30px;
+	margin-bottom: 0;
 }

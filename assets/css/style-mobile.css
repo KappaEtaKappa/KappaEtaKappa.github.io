@@ -382,14 +382,18 @@
 .footer-grid {
 	grid-template-areas:
 		"Events"
-		"What-is-this"
 		"Contact-us"
 		"Copyright";
 }
 
 .footer-grid.no_events {
 	grid-template-areas:
-		"What-is-this"
 		"Contact-us"
 		"Copyright";
+}
+
+.footer-grid.no-events > .footer-Contact-us {
+    display: grid;
+    grid-template-columns: auto;
+    margin-bottom: 0;
 }
