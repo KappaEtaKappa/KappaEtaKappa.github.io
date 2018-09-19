@@ -4,6 +4,25 @@ layout: default
 show_events: false
 ---
 
+<style>
+  #unhide-old-events {
+    text-align: center;
+    cursor: pointer;
+  }
+  .old-event {
+    display: none;
+  }
+</style>
+<script>
+  function unhideOldEvents() {
+    var old_events = document.getElementsByClassName('old-event');
+    for (var i = 0; i < old_events.length; i++) {
+      old_events[i].classList.remove('old-event');
+    }
+    document.getElementById('unhide-old-events').remove();
+  }
+</script>
+
 <div id="main-wrapper">
   <div class="container">
     <div class="row">
@@ -24,14 +43,31 @@ show_events: false
           <header class="major"><h2>Events</h2><header>
         </section>
 
-        {% for event in site.events %}
-        <div class="row">
-          <div class="8u -2u">
-          {% include event_card.html event=event box=true %}
-          </div>
-        </div>
-        {% endfor %}
+        {% capture events %}
+          {% for event in site.events %}
+            {% if event.date < site.time %}
+              {% assign has_old_events = true %}
+              <div class="row old-event">
+                <div class="8u -2u">
+                {% include event_card.html event=event box=true %}
+                </div>
+              </div>
+            {% else %}
+              <div class="row">
+                <div class="8u -2u">
+                {% include event_card.html event=event box=true %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endcapture %}
 
+        {% if has_old_events == true %}
+          <div id="unhide-old-events" class="row" onclick="unhideOldEvents()">
+            Show earlier events
+          </div>
+        {% endif %}
+        {{ events }}
       </div>
     </div>
   </div>
