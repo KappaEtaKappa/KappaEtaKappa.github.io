@@ -39,9 +39,10 @@ $ git add --all
 $ git commit -m "<description of changes>"
 
 # Push your changes to github
-$ git push
+$ git push --set-upstream origin my_new_feature
+# NOTE: If your upstream is already set, you can omit that flag. `git push` should work.
 ```
-Your changes will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
+Your branch will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
 
 ---
 
