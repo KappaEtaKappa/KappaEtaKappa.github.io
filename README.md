@@ -10,7 +10,7 @@ Checkout the section, *Why Jekyll?*, below for more.
 
 ### Development
 ```bash
-# Fork and/or checkout the repository
+# Clone the repository
 $ git clone git@github.com:KappaEtaKappa/delta.khk.org.jekyll.git
 
 # Run the Jekyll development server (http://localhost:1924)
@@ -32,7 +32,7 @@ $ git clone <repo>
 # Start a new branch
 $ git checkout -b my_new_feature
 ```
-Make your changes now. It's best to keep your commits small.
+Make your changes now. It's best to keep your commits small. Make sure to build and verify your changes.
 ```bash
 # Add and commit your changes
 $ git add --all
