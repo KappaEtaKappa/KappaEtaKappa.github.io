@@ -10,7 +10,7 @@ Checkout the section, *Why Jekyll?*, below for more.
 
 ### Development
 ```bash
-# Fork and/or checkout the repository
+# Clone the repository
 $ git clone git@github.com:KappaEtaKappa/delta.khk.org.jekyll.git
 
 # Run the Jekyll development server (http://localhost:1924)
@@ -32,16 +32,17 @@ $ git clone <repo>
 # Start a new branch
 $ git checkout -b my_new_feature
 ```
-Make your changes now. It's best to keep your commits small.
+Make your changes now. It's best to keep your commits small. Make sure to build and verify your changes.
 ```bash
 # Add and commit your changes
 $ git add --all
 $ git commit -m "<description of changes>"
 
 # Push your changes to github
-$ git push
+$ git push --set-upstream origin my_new_feature
+# NOTE: If your upstream is already set, you can omit that flag. `git push` should work.
 ```
-Your changes will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
+Your branch will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
 
 ---
 
