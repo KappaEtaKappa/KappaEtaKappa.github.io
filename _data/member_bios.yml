@@ -239,8 +239,8 @@ Wes Koerner:
   photo_uri: null
   status: null
 John "Mack" Zern:
-  connect_uri: null
-  name: null
+  connect_uri: 'https://www.linkedin.com/in/john-zern-5911a8170/'
+  name: John "Mack" Zern
   photo_uri: null
   status: null
 Graham Mendola:
@@ -255,7 +255,7 @@ Bradley Mickelson:
   status: null
 Bryce Belgarde:
   connect_uri: null
-  name: null
+  name: Bryce Belgarde
   photo_uri: null
   status: null
 Kiara Mutschler:
@@ -305,7 +305,7 @@ Matthew Bruton:
   status: Computer Science Student
 Matthew Spotts:
   connect_uri: null
-  name: null
+  name: Matthew Spotts
   photo_uri: null
   status: null
 Tambre Hu:
