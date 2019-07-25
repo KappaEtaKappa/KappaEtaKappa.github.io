@@ -131,8 +131,8 @@ Maggie O'Leary:
 Matthew Kramer:
   connect_uri: 'https://www.linkedin.com/in/matthewthekramer/'
   name: Matthew Kramer
-  photo_uri: null
-  status: Web Development Intern at Hardin Design and Development
+  photo_uri: '/assets/images/members/Kramer, Matthew.jpg'
+  status: President
 Matthew Nicol:
   connect_uri: 'https://www.linkedin.com/in/matthew-nicol-1b9655a4/'
   name: Matthew Nicol
@@ -219,7 +219,7 @@ Tyler Nettesheim:
   photo_uri: '/assets/images/members/Nettesheim, Tyler.jpg'
   status: Student
 Wayne Chew:
-  connect_uri: 'https://www.linkedin.com/mynetwork/invite-sent/waynechew/?isSendInvite=true'
+  connect_uri: 'https://www.linkedin.com/in/waynechew/'
   name: Wayne Chew
   photo_uri: '/assets/images/members/Chew, Wayne.jpg'
   status: 'Software Engineer, Machine Learning, Data Science'
@@ -227,4 +227,109 @@ Yunhe Liu:
   connect_uri: 'https://www.linkedin.com/in/yunhe-amos-liu-96b34068/'
   name: Yunhe 'Amos' Liu
   photo_uri: null
-  status: Studies at Cornell University
+  status: Studies at Cornell
+Ethan Amundson:
+  connect_uri: 'https://www.linkedin.com/in/ethanamundson'
+  name: Ethan Amundson
+  photo_uri: null
+  status: Vice President
+Wes Koerner:
+  connect_uri: 'https://www.linkedin.com/in/wesley-koerner-245471157/'
+  name: Wes Koerner
+  photo_uri: null
+  status: null
+John "Mack" Zern:
+  connect_uri: null
+  name: null
+  photo_uri: null
+  status: null
+Graham Mendola:
+  connect_uri: 'https://www.linkedin.com/in/graham-mendola-781b68167/'
+  name: Graham Mendola
+  photo_uri: null
+  status: null
+Bradley Mickelson:
+  connect_uri: 'https://www.linkedin.com/in/bradley-mickelson-0919a415b/'
+  name: Bradley mickelson
+  photo_uri: null
+  status: null
+Bryce Belgarde:
+  connect_uri: null
+  name: null
+  photo_uri: null
+  status: null
+Kiara Mutschler:
+  connect_uri: 'https://www.linkedin.com/in/kiara-mutschler/'
+  name: Kiara Mutschler
+  photo_uri: '/assets/images/members/Mutschler, Kiara.png'
+  status: Junior Studying Computer Science, Digital Studies Certificate
+Stephen Yuan:
+  connect_uri: 'https://www.linkedin.com/in/stephenyuan/'
+  name: Stephen Yuan
+  photo_uri: '/assets/images/members/Yuan, Stephen.png'
+  status: CS student, Rally Health Intern
+Yudai Yaguchi:
+  connect_uri: 'https://www.linkedin.com/in/yudai-yaguchi/'
+  name: Yudai Yaguchi
+  photo_uri: null
+  status: FrontEnd Engineering/Data science Intern at So-net Media Networks Japan
+Sathwik Pattem:
+  connect_uri: 'https://www.linkedin.com/in/sathwik-pattem-341170188/'
+  name: Sathwik Pattem
+  photo_uri: '/assets/images/members/Pattem, Sathwik.png'
+  status: Computer Engineering Student
+Dewansh Bista:
+  connect_uri: 'https://www.linkedin.com/in/dewansh-bista-003409148/'
+  name: Dewansh Bista
+  photo_uri: null
+  status: null
+Adam McAvoy:
+  connect_uri: 'https://www.linkedin.com/in/adam-mcavoy-965018152/'
+  name: Adam McAvoy
+  photo_uri: '/assets/images/members/McAvoy, Adam.jfif'
+  status: Computer Science Intern at Triangle Manufacturing
+Oscar Zhang:
+  connect_uri: 'https://www.linkedin.com/in/tianhe-zhang-8807aa138/'
+  name: Oscar Zhang
+  photo_uri: '/assets/images/members/Zhang, Oscar.png'
+  status: Publicity Assistant
+Alexander Kofman:
+  connect_uri: 'https://www.linkedin.com/in/alexanderkofman'
+  name: Alexander Kofman
+  photo_uri: '/assets/images/members/Kofman, Alexander.jpg'
+  status: Lead Chassis Engineer at Wisconsin Racing Formula SAE
+Matthew Bruton:
+  connect_uri: 'http://linkedin.com/in/matthew-bruton-443b16187'
+  name: Matthew Bruton
+  photo_uri: '/assets/images/members/Bruton, Matthew.png'
+  status: Computer Science Student
+Matthew Spotts:
+  connect_uri: null
+  name: null
+  photo_uri: null
+  status: null
+Tambre Hu:
+  connect_uri: 'https://www.linkedin.com/in/tambre-hu/'
+  name: Tambre Hu
+  photo_uri: '/assets/images/members/Hu, Tambre.jpg'
+  status: null
+Stephanie Jasper:
+  connect_uri: null
+  name: Stephanie Jasper
+  photo_uri: '/assets/images/members/Jasper, Stephanie.jpg'
+  status: Sophomore studying Electrical Engineering
+Han Cao:
+  connect_uri: 'https://www.linkedin.com/in/hancaocoder/'
+  name: Han Cao
+  photo_uri: '/assets/images/members/Cao, Han.jfif'
+  status: null
+Lingzheng He:
+  connect_uri: 'http://www.linkedin.com/in/lingzheng-he'
+  name: Lingzheng He
+  photo_uri: '/assets/images/members/He, Lingzheng.jpg'
+  status: null
+Vivian Shi:
+  connect_uri: 'https://www.linkedin.com/in/wei-shi-b03603172/'
+  name: Vivian Shi
+  photo_uri: null
+  status: null
