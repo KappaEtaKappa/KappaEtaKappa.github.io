@@ -1,5 +1,5 @@
 ---
-title: Open House \#3
+title: Open House \#1
 featured:
 location: Our house
 address: >-
@@ -7,6 +7,6 @@ address: >-
   Madison, WI 53715
 ---
 
-BLURB HERE
+Join us for our third Open House of the fall 2019 semester! Starting at 6 pizza and drinks will be available. Come any time and stay as long as you want. It’s guaranteed to be a packed house and a great chance to meet the members.
 <!-- More -->
-MORE BLURB IF NEEDED
+Who doesn’t love pizza‽ Well, maybe not everybody. Don’t worry, we’ll have other food and drink available! If you can’t make the event make sure to [visit us at one of our other events]({{site.baseurl}}/events). ;)
