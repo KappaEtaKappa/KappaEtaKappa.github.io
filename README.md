@@ -9,13 +9,17 @@ This project is built with [Jekyll](https://jekyllrb.com/). Jekyll is a simple a
 Checkout the section, *Why Jekyll?*, below for more.
 
 ### Development
+Before you begin, make sure to [install Jekyll](https://jekyllrb.com/docs/installation/).
 ```bash
 # Clone the repository
-$ git clone git@github.com:KappaEtaKappa/delta.khk.org.jekyll.git
+$ git clone git@github.com:KappaEtaKappa/delta.khk.org.git
+$ cd delta.khk.org
+
+# Download and build all project dependencies
+$ bundle install --path vendor/bundle
 
 # Run the Jekyll development server (http://localhost:1924)
-$ cd delta.khk.org.jekyll
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 Jekyll will watch the current directory for changes and rebuild automatically.
 
