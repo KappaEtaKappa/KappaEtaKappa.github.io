@@ -11,7 +11,7 @@ Alex Elliott:
 Ali Zaidi:
   connect_uri: 'https://www.linkedin.com/in/ali-zaidi-940b49128/'
   name: Ali Zaidi
-  photo_uri: null
+  photo_uri: '/assets/images/members/Zaidi, Ali.jpg'
   status: Computer Science Student
 Allen Kempke:
   connect_uri: null
@@ -141,7 +141,7 @@ Matthew Nicol:
 Matthew Strimaitis:
   connect_uri: 'https://www.linkedin.com/in/matthew-strimaitis-b21103112/'
   name: Matthew Strimaitis
-  photo_uri: '/asset/images/members/Strimaitis, Matthew.jpg'
+  photo_uri: '/assets/images/members/Strimaitis, Matthew.jpg'
   status: iOS Developer at UW Madison - AVIATR Lab
 Michael Mueller:
   connect_uri: 'https://www.linkedin.com/in/michael-mueller-5ab08a108/'
