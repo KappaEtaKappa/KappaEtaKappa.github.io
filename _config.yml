@@ -28,6 +28,7 @@ github_username: kappaetakappa
 
 # Build settings
 markdown: kramdown
+future: true
 
 collections:
   members:
