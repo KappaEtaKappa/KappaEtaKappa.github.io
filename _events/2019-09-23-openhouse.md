@@ -1,5 +1,5 @@
 ---
-title: Open House \#3
+title: Open House
 featured:
 location: Our house
 address: >-
