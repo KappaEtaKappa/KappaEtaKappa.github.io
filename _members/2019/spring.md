@@ -1,0 +1,34 @@
+---
+semester_index: 3
+members:
+- Samuel Julson
+- Ali Zaidi
+- Tom Powers
+- Tyler Nettesheim
+- Steven Ritter
+- Stewart Hagen
+- Matthew Strimaitis
+- Tiger He
+- Matthew Kramer
+- Ethan Amundson
+- Wes Koerner
+- John "Mack" Zern
+- Graham Mendola
+- Bradley Mickelson
+- Bryce Belgarde
+- Kiara Mutschler
+- Stephen Yuan
+- Yudai Yaguchi
+- Sathwik Pattem
+- Dewansh Bista
+- Adam McAvoy
+- Oscar Zhang
+- Alexander Kofman
+- Matthew Bruton
+- Matthew Spotts
+- Tambre Hu
+- Stephanie Jasper
+- Han Cao
+- Lingzheng He
+- Vivian Shi
+---
