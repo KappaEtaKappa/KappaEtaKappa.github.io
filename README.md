@@ -48,6 +48,8 @@ $ git push --set-upstream origin my_new_feature
 ```
 Your branch will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
 
+Depending on the host configuration, new changes will be picked up periodically. Ask your webmaster for details.
+
 ---
 
 ### Why Jekyll?
