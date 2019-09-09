@@ -261,12 +261,12 @@ Bryce Belgarde:
 Kiara Mutschler:
   connect_uri: 'https://www.linkedin.com/in/kiara-mutschler/'
   name: Kiara Mutschler
-  photo_uri: '/assets/images/members/Mutschler, Kiara.png'
+  photo_uri: null #'/assets/images/members/Mutschler, Kiara.png'
   status: Junior Studying Computer Science, Digital Studies Certificate
 Stephen Yuan:
   connect_uri: 'https://www.linkedin.com/in/stephenyuan/'
   name: Stephen Yuan
-  photo_uri: '/assets/images/members/Yuan, Stephen.png'
+  photo_uri: null #'/assets/images/members/Yuan, Stephen.png'
   status: CS student, Rally Health Intern
 Yudai Yaguchi:
   connect_uri: 'https://www.linkedin.com/in/yudai-yaguchi/'
@@ -276,7 +276,7 @@ Yudai Yaguchi:
 Sathwik Pattem:
   connect_uri: 'https://www.linkedin.com/in/sathwik-pattem-341170188/'
   name: Sathwik Pattem
-  photo_uri: '/assets/images/members/Pattem, Sathwik.png'
+  photo_uri: null #'/assets/images/members/Pattem, Sathwik.png'
   status: Computer Engineering Student
 Dewansh Bista:
   connect_uri: 'https://www.linkedin.com/in/dewansh-bista-003409148/'
@@ -291,7 +291,7 @@ Adam McAvoy:
 Oscar Zhang:
   connect_uri: 'https://www.linkedin.com/in/tianhe-zhang-8807aa138/'
   name: Oscar Zhang
-  photo_uri: '/assets/images/members/Zhang, Oscar.png'
+  photo_uri: null #'/assets/images/members/Zhang, Oscar.png' #missing due to png issues
   status: Publicity Assistant
 Alexander Kofman:
   connect_uri: 'https://www.linkedin.com/in/alexanderkofman'
