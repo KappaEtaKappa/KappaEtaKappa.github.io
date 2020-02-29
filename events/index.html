@@ -10,7 +10,7 @@ show_events: false
     cursor: pointer;
   }
   .old-event {
-    display: none;
+    /* display: none; */
   }
 </style>
 <script>
@@ -62,11 +62,11 @@ show_events: false
           {% endfor %}
         {% endcapture %}
 
-        {% if has_old_events == true %}
+        <!-- {% if has_old_events == true %}
           <div id="unhide-old-events" class="row" onclick="unhideOldEvents()">
             Show earlier events
           </div>
-        {% endif %}
+        {% endif %} -->
         {{ events }}
       </div>
     </div>
