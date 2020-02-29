@@ -1,0 +1,40 @@
+---
+semester_index: 3
+members:
+- Samuel Julson
+- Stewart Hagen
+- Tiger He
+- Matthew Kramer
+- Ethan Amundson
+- Wes Koerner
+- John "Mack" Zern
+- Graham Mendola
+- Bradley Mickelson
+- Bryce Belgarde
+- Kiara Mutschler
+- Stephen Yuan
+- Yudai Yaguchi
+- Sathwik Pattem
+- Dewansh Bista
+- Adam McAvoy
+- Oscar Zhang
+- Alexander Kofman
+- Matthew Bruton
+- Matthew Spotts
+- Tambre Hu
+- Stephanie Jasper
+- Han Cao
+- Lingzheng He
+- Vivian Shi
+- Americo Childs
+- Drew Halverson
+- Eric Zhou
+- Jacob Berry
+- Marwan McBride
+- Patrick Day
+- Sam Erickson
+- Sang Jung
+- Sean Zhang
+- Teddy Nguyen
+- Tim Bostanche
+---
