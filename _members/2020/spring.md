@@ -31,18 +31,18 @@ members:
 - Sean Zhang
 - Teddy Nguyen
 - Tim Bostanche
-- Safwat Rahman
-- Max Albers
-- Franklin Wang
-- Parker Jorenby
-- Kashin Shah
-- Connor Dyjach
-- Abhishek Mhatre
-- Girik Soni
-- George Kimbrough
-- Robert Miller
-- Bhavt Sai Sunkara
-- Nagon Taronvanchni
-- Yun Su Um (Cody)
+#- Safwat Rahman
+#- Max Albers
+#- Franklin Wang
+#- Parker Jorenby
+#- Kashin Shah
+#- Connor Dyjach
+#- Abhishek Mhatre
+#- Girik Soni
+#- George Kimbrough
+#- Robert Miller
+#- Bhavt Sai Sunkara
+#- Nagon Taronvanchni
+#- Yun Su Um (Cody)
 
 ---
