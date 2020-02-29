@@ -1,5 +1,5 @@
 ---
-semester_index: 3
+semester_index: 4
 members:
 - Samuel Julson
 - Stewart Hagen

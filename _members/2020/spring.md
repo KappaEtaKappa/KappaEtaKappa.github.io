@@ -1,5 +1,5 @@
 ---
-semester_index: 3
+semester_index: 5
 members:
 - Ali Zaidi
 - Stewart Hagen
