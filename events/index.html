@@ -1,0 +1,74 @@
+---
+title: Events
+layout: default
+show_events: false
+---
+
+<style>
+  #unhide-old-events {
+    text-align: center;
+    cursor: pointer;
+  }
+  .old-event {
+    /* display: none; */
+  }
+</style>
+<script>
+  function unhideOldEvents() {
+    var old_events = document.getElementsByClassName('old-event');
+    for (var i = 0; i < old_events.length; i++) {
+      old_events[i].classList.remove('old-event');
+    }
+    document.getElementById('unhide-old-events').remove();
+  }
+</script>
+
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+			<div class="12u">
+
+        <div class="row">
+          <div class="10u -1u">
+            <article class="info-text">
+              <h2>Looking to get involved with KHK?</h2>
+              <p>
+                We're always looking for new members who share our core ideals in academics, professionalism, and commnunity. If you're looking for a place to study, build things, or make new friends then we're happy to meet you. Checkout our public events below to figure when and where to meet us. You can also catch us at org fairs, or proped up in campus buildings. Otherwise feel free to reach our online or stop on by at our house on campus at 114 North Orchard St.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <section>
+          <header class="major"><h2>Events</h2><header>
+        </section>
+
+        {% capture events %}
+          {% for event in site.events %}
+            {% if event.date < site.time %}
+              {% assign has_old_events = true %}
+              <div class="row old-event">
+                <div class="8u -2u">
+                {% include event_card.html event=event box=true %}
+                </div>
+              </div>
+            {% else %}
+              <div class="row">
+                <div class="8u -2u">
+                {% include event_card.html event=event box=true %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endcapture %}
+
+        <!-- {% if has_old_events == true %}
+          <div id="unhide-old-events" class="row" onclick="unhideOldEvents()">
+            Show earlier events
+          </div>
+        {% endif %} -->
+        {{ events }}
+      </div>
+    </div>
+  </div>
+</div>

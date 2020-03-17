@@ -1,0 +1,7 @@
+---
+title: Current Members
+layout: passthrough
+permalink: /members/index.html
+---
+{% assign sorted_pages = site.members | sort:"semester_index" | reverse %}
+{{ sorted_pages[0] }}

@@ -1,0 +1,15 @@
+{% assign event = include.event %}
+<ul class="dates">
+  <li>
+    <span class="date-arrow">
+      {{ event.date | date: "%B"}}
+      <strong>{{ event.date | date: "%d"}}</strong>
+    </span>
+    <a href="{{ site.baseurl }}{{ event.url }}" class="no-link {% if include.box == true %}box{% endif %}" href="#">
+      <div class="date-details">
+        <h3>{{ event.title }}</h3>
+        {{ event.excerpt }}
+      </div>
+    </a>
+  </li>
+</ul>

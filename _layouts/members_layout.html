@@ -1,0 +1,16 @@
+{% include header.html banner=false %}
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="12u">
+        {% include semester_pager.html %}
+        <section class="members-grid">
+          {% for member_id in page.members %}
+            {% include member_card.html id=member_id %}
+          {% endfor %}
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+{% include footer.html %}
