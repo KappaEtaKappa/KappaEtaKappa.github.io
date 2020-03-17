@@ -1,0 +1,63 @@
+---
+title: Posts
+layout: default
+---
+
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+			<div class="12u">
+        {% if paginator.page == 1 %}
+        <div class="row">
+          <div class="10u -1u">
+            <article class="info-text">
+              <p>
+                Delta chapter of Kappa Eta Kappa (<strong>KHK</strong>) was founded at the University of Wisconsin as an electrical engineering fraternity on February 9th, 1924. Many years have gone by and the chapter is still going strong. Today many of our members also study computer engineering, computer science and other technical programs.
+              </p>
+              <p>
+                Our location has changed a few times over the many years. Today we're located right on campus at <strong>114 N. Orchard St.</strong> in Madison Wisconsin. This house has been great for us. It's a block away from CS, two blocks from Engineering Dr. and a block away from Camp Randall.
+              </p>
+              <p>
+                Our Members have a high reputation for starting successful careers right out of school. Many of them immediately start work in industry. Others go on to graduate programs at the UW and elsewhere. Some recent talent has gone off to big companies such as <i>Google</i>, <i>Qualcomm</i>, and <i>Northworth Grumman</i>. Some have been fortunate to stay local at places like <i>Epic</i>, <i>X-ES Engineering</i>, and <i>Hardin Design and Development</i>.
+              </p>
+              <p>
+                Here at KHK, we build life-long relationships. Through tradition and legacy, we're close enough to call ourselves a family. We support each other alchemically and personally. As part of our mission, we know that social growth is just as important as professional growth. We are always engaging with the community. Our house has an open door for Badger gamedays and other socials.
+              </p>
+            </article>
+          </div>
+        </div>
+        {% endif %}
+
+        <section>
+          <header class="major"><h2>Posts</h2><header>
+        </section>
+
+        {% for post in paginator.posts %}
+        <div class="row">
+          <div class="8u -2u">
+          {% include post_card.html post=post %}
+          </div>
+        </div>
+        {% endfor %}
+
+        <footer>
+          <header class="major" style="margin-bottom:0;">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}"><i class="fa fa-angle-left"></i></a>
+            {% else %}
+              <span><i class="fa fa-angle-left"></i></span>
+            {% endif %}
+
+            <h2>{{ paginator.page }} / {{ paginator.total_pages }}</h2>
+
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}"><i class="fa fa-angle-right"></i></a>
+            {% else %}
+              <span><i class="fa fa-angle-right"></i></span>
+            {% endif %}
+          </header>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>

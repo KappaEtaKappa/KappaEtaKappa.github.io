@@ -1,0 +1,57 @@
+---
+title: Kappa Eta Kappa, Delta Chapter
+
+President: Matthew Kramer
+Vice_President: Ethan Amundson
+Treasurer: Sathwik Pattem
+Secretary: Stewart Hagen
+Publicity_Chair: Adam McAvoy
+Pledge_Trainer: Kiara Mutschler
+House_Steward: Bryce Belgarde
+Social_Chair: Wes Koerner
+---
+{% include header.html banner=true %}
+
+<!-- Main -->
+<div id="main-wrapper">
+  <div class="container">
+
+    <!-- Updates -->
+    <section>
+      <header class="major">
+        <h2>Updates</h2>
+      </header>
+      <div class="updates-grid">
+        {% for post in site.posts offset: 0 limit: 2 %}
+          {% include post_card.html post=post%}
+        {% endfor %}
+      </div>
+      <footer style="display:flex;justify-content:center;">
+        <a href="/posts/" class="button big icon fa fa-newspaper-o">Read more</a>
+      </footer>
+    </section>
+
+    <!-- Member Highlights -->
+    <section class="member-highlights">
+      <header class="major">
+        <h2>Member Highlights</h2>
+      </header>
+      <div class="leadership-grid">
+        {% include member_card.html role='President' id=page.President %}
+        {% include member_card.html role='Vice President' id=page.Vice_President %}
+        {% include member_card.html role='Pledge Trainer' id=page.Pledge_Trainer %}
+        {% include member_card.html role='House Steward' id=page.House_Steward %}
+      </div>
+      <div class="order-grid">
+        {% include member_card.html role='Treasurer' id=page.Treasurer %}
+        {% include member_card.html role='Publicity Chair' id=page.Publicity_Chair %}
+        {% include member_card.html role='Social Chair' id=page.Social_Chair %}
+        {% include member_card.html role='Secretary' id=page.Secretary %}
+      </div>
+      <footer style="display:flex;justify-content:center;">
+        <a href="/members/" class="button big icon fa fa-users">View all members</a>
+      </footer>
+  </div>
+</div>
+
+{% include footer.html %}

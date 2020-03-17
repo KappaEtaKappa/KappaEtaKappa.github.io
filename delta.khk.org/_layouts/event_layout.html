@@ -1,0 +1,35 @@
+{% include header.html banner=false %}
+
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+
+				<section>
+					<header class="major">
+						<span>{{ page.date | date_to_string }}</span>
+						<h2>{{ page.title }}</h2>
+						<span>{{ page.location }}</span>
+					</header>
+					<div class="row">
+						<div class="8u -2u">
+							<section class="box">
+								{% if page.featured %}
+									<span class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="{ page.title }}" /></span>
+								{% endif %}
+								{{ page.content }}
+							</section>
+						</div>
+					</div>
+					<footer class="major">
+						{% if page.address != null %}
+							<a style="text-decoration: underline;" href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination={{ page.address }}"><h2>{{ page.address }}</h2></a>
+						{% endif %}
+					</footer>
+				</section>
+
+			</div>
+		</div>
+	</div>
+</div>
+{% include footer.html show_events=false %}

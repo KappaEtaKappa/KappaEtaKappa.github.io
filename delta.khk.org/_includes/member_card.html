@@ -1,0 +1,17 @@
+{% assign member = site.data.member_bios[include.id] %}
+
+{% if member != null %}
+  <section class="box member-box {{include.role | replace:' ', '-'}}">
+    {% assign photo = member.photo_uri | default: '/assets/images/profile-photo-placeholder.jpg' %}
+    <span class="image full" style="background-image:url('{{ photo }}')"></span>
+    <h3>{{member.name}}</h3>
+    <p>{{include.role | default:member.status}}</p>
+    {% include connect_button.html connect_uri=member.connect_uri %}
+  </section>
+{% else %}
+  {% if jekyll.environment == "development" %}
+    <section class="box">
+      <strong style="color:red;">Error:</strong> Member bio missing for {{include.id}}
+    </section>
+  {% endif %}
+{% endif %}
