@@ -132,7 +132,7 @@ Matthew Kramer:
   connect_uri: 'https://www.linkedin.com/in/matthewthekramer/'
   name: Matthew Kramer
   photo_uri: '/assets/images/members/Kramer, Matthew.jpg'
-  status: President
+  status: Publicity Chair
 Matthew Nicol:
   connect_uri: 'https://www.linkedin.com/in/matthew-nicol-1b9655a4/'
   name: Matthew Nicol
@@ -232,17 +232,17 @@ Ethan Amundson:
   connect_uri: 'https://www.linkedin.com/in/ethanamundson'
   name: Ethan Amundson
   photo_uri: '/assets/images/members/Amundson, Ethan.jpg'
-  status: Vice President
+  status: President
 Wes Koerner:
   connect_uri: 'https://www.linkedin.com/in/wesley-koerner-245471157/'
   name: Wes Koerner
   photo_uri: '/assets/images/members/Koerner, Wes.jpg'
-  status: Social Chair
+  status: Asst. Treasurer
 John "Mack" Zern:
   connect_uri: 'https://www.linkedin.com/in/john-zern-5911a8170/'
   name: John "Mack" Zern
   photo_uri: '/assets/images/members/Zern, John.jpg'
-  status: null
+  status: Treasurer
 Graham Mendola:
   connect_uri: 'https://www.linkedin.com/in/graham-mendola-781b68167/'
   name: Graham Mendola
@@ -257,12 +257,12 @@ Bryce Belgarde:
   connect_uri: null
   name: Bryce Belgarde
   photo_uri: '/assets/images/members/Belgarde, Bryce.jpg'
-  status: null
+  status: Pledge Trainer
 Kiara Mutschler:
   connect_uri: 'https://www.linkedin.com/in/kiara-mutschler/'
   name: Kiara Mutschler
   photo_uri: '/assets/images/members/Mutschler, Kiara.jpg'
-  status: Junior Studying Computer Science, Digital Studies Certificate
+  status: Social Chair
 Stephen Yuan:
   connect_uri: 'https://www.linkedin.com/in/stephenyuan/'
   name: Stephen Yuan
@@ -277,7 +277,7 @@ Sathwik Pattem:
   connect_uri: 'https://www.linkedin.com/in/sathwik-pattem-341170188/'
   name: Sathwik Pattem
   photo_uri: '/assets/images/members/Pattem, Sathwik.jpg'
-  status: Computer Engineering Student
+  status: Vice President
 Dewansh Bista:
   connect_uri: 'https://www.linkedin.com/in/dewansh-bista-003409148/'
   name: Dewansh Bista
@@ -302,7 +302,7 @@ Matthew Bruton:
   connect_uri: 'http://linkedin.com/in/matthew-bruton-443b16187'
   name: Matthew Bruton
   photo_uri: '/assets/images/members/Bruton, Matthew.jpg'
-  status: Computer Science Student
+  status: Asst. Pledge Trainer
 Matthew Spotts:
   connect_uri: null
   name: Matthew Spotts
@@ -317,7 +317,7 @@ Stephanie Jasper:
   connect_uri: null
   name: Stephanie Jasper
   photo_uri: '/assets/images/members/Jasper, Stephanie.jpg'
-  status: Sophomore studying Electrical Engineering
+  status: Secretary, Asst. Publicity Chair
 Han Cao:
   connect_uri: 'https://www.linkedin.com/in/hancaocoder/'
   name: Han Cao
@@ -333,18 +333,17 @@ Vivian Shi:
   name: Vivian Shi
   photo_uri: '/assets/images/members/Shi, Vivian.jpg'
   status: null
-
+# Class of Fall '19
 Americo Childs:
   connect_uri: null
   name: Americo Childs
   photo_uri: null
   status: null
-
 Drew Halverson:
   connect_uri: null
   name: Drew Halverson
   photo_uri: null
-  status: null
+  status: Asst. Social Chair
 Eric Zhou:
   connect_uri: null
   name: Eric Zhou
@@ -354,7 +353,7 @@ Jacob Berry:
   connect_uri: null
   name: Jacob Berry
   photo_uri: null
-  status: null
+  status: Asst. Social Chair
 Marwan McBride:
   connect_uri: null
   name: Marwan McBride
@@ -369,7 +368,7 @@ Sam Erickson:
   connect_uri: null
   name: Sam Erickson
   photo_uri: null
-  status: null
+  status: Asst. Publicity Chair
 Sang Jung:
   connect_uri: null
   name: Sang Jung
@@ -380,7 +379,6 @@ Sean Zhang:
   name: Sean Zhang
   photo_uri: null
   status: null
-
 Teddy Nguyen:
   connect_uri: null
   name: Teddy Nguyen
@@ -389,5 +387,61 @@ Teddy Nguyen:
 Tim Bostanche:
   connect_uri: null
   name: Tim Bostanche
+  photo_uri: null
+  status: Asst. Treasurer
+#Class of Spring '20
+Safwat Rahman:
+  connect_uri: null
+  name: Safwat Rahman
+  photo_uri: null
+  status: null
+Max Albers:
+  connect_uri: null
+  name: Max Albers
+  photo_uri: null
+  status: null
+Franklin Wang:
+  connect_uri: null
+  name: Franklin Wang
+  photo_uri: null
+  status: null
+Parker Jorenby:
+  connect_uri: null
+  name: Parker Jorenby
+  photo_uri: null
+  status: null
+Kashin Shah:
+  connect_uri: null
+  name: Kashin Shah
+  photo_uri: null
+  status: null
+Connor Dyjach:
+  connect_uri: null
+  name: Connor Dyjach
+  photo_uri: null
+  status: null
+Abhishek Mhatre:
+  connect_uri: null
+  name: Abhishek Mhatre
+  photo_uri: null
+  status: null
+Girik Soni:
+  connect_uri: null
+  name: Girik Soni
+  photo_uri: null
+  status: null
+George Kimbrough:
+  connect_uri: null
+  name: George Kimbrough
+  photo_uri: null
+  status: null
+Robert Miller:
+  connect_uri: null
+  name: Robert Miller
+  photo_uri: null
+  status: null
+Bhavt Sai Sunkara:
+  connect_uri: null
+  name: Bhavt Sai Sunkara
   photo_uri: null
   status: null
