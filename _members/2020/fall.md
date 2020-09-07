@@ -1,11 +1,9 @@
 ---
 semester_index: 6
 members:
-- Tiger He
 - Ethan Amundson
 - John "Mack" Zern
 - Graham Mendola
-- Bradley Mickelson
 - Bryce Belgarde
 - Kiara Mutschler
 - Sathwik Pattem
