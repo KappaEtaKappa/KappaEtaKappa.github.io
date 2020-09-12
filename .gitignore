@@ -4,6 +4,7 @@ vendor
 .sass-cache
 .jekyll-metadata
 .bundle
+.jekyll-cache
 
 
 **.DS_Store

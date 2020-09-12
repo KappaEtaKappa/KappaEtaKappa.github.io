@@ -23,10 +23,10 @@ $ bundle exec jekyll serve
 ```
 Jekyll will watch the current directory for changes and rebuild automatically.
 
-**Note:** When running in production, we use `jekyll build` to create all required files *once* and NGINX (or Apache) to serve them. The server provided by Jekyll is just for convenience.
+**Note:** If you were running this in production, you would use `jekyll build` to create all required files *once* and serve them statically via NGINX (or Apache). The server provided by Jekyll is just for convenience.
 
 ### Pushing to Production
-It's best to make small, contained changes. Once you've committed your change(s) submit a pull-request. Reach out to the current site maintainer(s) to have your code merged and pulled into production.
+It's best to make small, contained changes. Once you've committed your change(s) submit a pull-request. Work with each other and previous contributors to have your code reviewed and merged into production.
 
 If you're new to git, checkout [Git No Deep Shit!](http://rogerdudler.github.io/git-guide/). Here is the basic workflow.
 ```bash
@@ -36,17 +36,22 @@ $ git clone <repo>
 # Start a new branch
 $ git checkout -b my_new_feature
 ```
-Make your changes now. It's best to keep your commits small. Make sure to build and verify your changes.
+Make your changes now. It's best to keep your commits small. Make sure to build and verify your changes often.
 ```bash
 # Add and commit your changes
 $ git add --all
 $ git commit -m "<description of changes>"
 
-# Push your changes to github
+# Push your changes to Github
 $ git push --set-upstream origin my_new_feature
-# NOTE: If your upstream is already set, you can omit that flag. `git push` should work.
+# NOTE: If your upstream is already set, you can omit that flag. `git push` will work.
 ```
-Your branch will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master, they can be pulled into production.
+Your branch will now be on Github. You can create a pull request from there. Maintainers and other developers can then comment on and merge your changes into master. Once your changes are on master they will soon (<15 minutes) appear in production.
+
+### Hosting
+At the time of writing, this site is hosted with [Github Pages](https://pages.github.com/). You can view and change how this works in the [settings](https://github.com/KappaEtaKappa/KappaEtaKappa.github.io/settings). DNS for `khk.org` and all subdomains is configured on [WPlex.com](https://www.wplex.com/). You will need to speak to a webmaster to make any changes.
+
+If you would like to publicly host this on your own server, you should read this [pull request](https://github.com/KappaEtaKappa/KappaEtaKappa.github.io/pull/15/commits/c2103b95634190adc547b26b47276be744b35dc0) to see how you might do so. You should also read [how the site was converted to Github Pages](https://github.com/KappaEtaKappa/KappaEtaKappa.github.io/commits/github-pages) in order to reverse some of the changes.
 
 ---
 
@@ -57,6 +62,8 @@ This user-convenience comes with a lot of site weight. Wordpress, PHP, and MySQL
 
 Conventional database-*like* data, like 'member' data, is supported by Jekyll too. JSON, YAML, and CSV files can be created to hold any well-structured data. Accessing our member data is as simple as reading from site.members. You might be saying, "what about speed?" Jekyll is a static site engine. This mean all cost is spent up-front. Loading the site is actually incredibly fast. Then you might ask, "what about dynamic content? Like public comments?" This [is supported](https://jekyllrb.com/docs/plugins/), but it's not meaningful for our site.
 
-Ultimately, the all-in-one solutions of the past turned out to be too much hassle. Our content is now quickly readable and easy to update. Site updates are done with the familiar tool, Git.  We're invulnerable to security attacks [common to CMS site](https://www.cvedetails.com/vulnerability-list/vendor_id-2337/product_id-4096/). Our site is *much faster* to load and works great on mobile.
+Ultimately, the all-in-one solutions of the past turned out to be too much hassle. Our content is now quickly readable and easy to update. Site updates are done with the familiar tool, Git.  We're invulnerable to security attacks [common to CMS sites](https://www.cvedetails.com/vulnerability-list/vendor_id-2337/product_id-4096/). Our site is *much faster* to load and works great on mobile. To top that off, our hosting is free with Github Pages!
 
 Plus, we're a computer engineering fraternity, our site should be built by us.
+
+— Joe Dailey
