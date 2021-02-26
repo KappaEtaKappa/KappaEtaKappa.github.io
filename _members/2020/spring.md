@@ -27,7 +27,7 @@ members:
 - Marwan McBride
 - Patrick Day
 - Sam Erickson
-- Sang Jung
+- Sangone Jung
 - Sean Zhang
 - Teddy Nguyen
 - Tim Bostanche
