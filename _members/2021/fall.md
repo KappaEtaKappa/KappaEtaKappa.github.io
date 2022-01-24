@@ -1,0 +1,30 @@
+---
+semester_index: 8
+members:
+- Ethan Amundson
+- Bradley Mickelson
+- Bryce Belgarde
+- Sathwik Pattem
+- Dewansh Bista
+- Adam McAvoy
+- Alexander Kofman
+- Matthew Spotts
+- Tambre Hu
+- Americo Childs
+- Drew Halverson
+- Eric Zhou
+- Jacob Berry
+- Patrick Day
+- Sam Erickson
+- Sangone Jung
+- Tim Bostanche
+- Safwat Rahman
+- Max Albers
+- Franklin Wang
+- Parker Jorenby
+- Kashin Shah
+- Connor Dyjach
+- Abhishek Mhatre
+- Robert Miller
+- Girik Soni
+---
