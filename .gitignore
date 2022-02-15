@@ -5,6 +5,6 @@ vendor
 .jekyll-metadata
 .bundle
 .jekyll-cache
-
+.ruby-version
 
 **.DS_Store

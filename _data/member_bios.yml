@@ -252,7 +252,7 @@ Bradley Mickelson:
   connect_uri: 'https://www.linkedin.com/in/bradley-mickelson-0919a415b/'
   name: Bradley mickelson
   photo_uri: '/assets/images/members/Mickelson, Brad.jpg'
-  status: Publicity
+  status: null
 Bryce Belgarde:
   connect_uri: null
   name: Bryce Belgarde
@@ -287,7 +287,7 @@ Adam McAvoy:
   connect_uri: 'https://www.linkedin.com/in/adam-mcavoy-965018152/'
   name: Adam McAvoy
   photo_uri: '/assets/images/members/McAvoy, Adam.jpg'
-  status: Computer Science Intern at Triangle Manufacturing
+  status: null
 Oscar Zhang:
   connect_uri: 'https://www.linkedin.com/in/tianhe-zhang-8807aa138/'
   name: Oscar Zhang
@@ -307,17 +307,17 @@ Matthew Spotts:
   connect_uri: null
   name: Matthew Spotts
   photo_uri: '/assets/images/members/Spotts, Matthew.jpg'
-  status: Assistant Treasurer
+  status: null
 Tambre Hu:
   connect_uri: 'https://www.linkedin.com/in/tambre-hu/'
   name: Tambre Hu
   photo_uri: '/assets/images/members/Hu, Tambre.jpg'
   status: null
 Stephanie Jasper:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/stephanie-jasper-7054a0189/
   name: Stephanie Jasper
   photo_uri: '/assets/images/members/Jasper, Stephanie.jpg'
-  status: Electrical Engineering Junior
+  status: Treasurer
 Han Cao:
   connect_uri: 'https://www.linkedin.com/in/hancaocoder/'
   name: Han Cao
@@ -352,7 +352,7 @@ Jacob Berry:
   connect_uri: null
   name: Jacob Berry
   photo_uri: null
-  status: Assistant Social Chair, Exec Board
+  status: President
 Marwan McBride:
   connect_uri: null
   name: Marwan McBride
@@ -364,10 +364,10 @@ Patrick Day:
   photo_uri: null
   status: null
 Sam Erickson:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/samuel-erickson-377a351b5/
   name: Sam Erickson
   photo_uri: '/assets/images/members/Erickson, Sam.JPG'
-  status: Vice President
+  status: Incoming Software Engineer Intern @ Relativity
 Sangone Jung:
   connect_uri: null
   name: Sang Jung
@@ -402,17 +402,17 @@ Parker Jorenby:
   connect_uri: null
   name: Parker Jorenby
   photo_uri: null
-  status: null
+  status: Vice President
 Kashin Shah:
   connect_uri: null
   name: Kashin Shah
   photo_uri: null
-  status: Exec Board
+  status: null
 Connor Dyjach:
   connect_uri: null
   name: Connor Dyjach
   photo_uri: '/assets/images/members/Dyjach, Connor.jpg'
-  status: Exec Board
+  status: null
 Abhishek Mhatre:
   connect_uri: null
   name: Abhishek Mhatre
@@ -433,4 +433,118 @@ Girik Soni:
   name: Girik Soni
   photo_uri: null
   status: null
-
+Aidan Lau:
+  connect_uri: null
+  name: Aidan Lau
+  photo_uri: null
+  status: null
+Alex Sannikov:
+  connect_uri: https://www.linkedin.com/in/alex-sannikov/
+  name: Alex Sannikov
+  photo_uri: '/assets/images/members/Sannikov, Alex.jpg'
+  status: Mobile App Enthusiast
+Daniel Zimmerman:
+  connect_uri: null
+  name: Daniel Zimmerman
+  photo_uri: null
+  status: null
+Darryl Hayes:
+  connect_uri: null
+  name: Darryl Hayes
+  photo_uri: null
+  status: null
+Dev Mehrotra:
+  connect_uri: null
+  name: Dev Mehrotra
+  photo_uri: null
+  status: null
+Fahim Islam:
+  connect_uri: null
+  name: Fahim A. Islam
+  photo_uri: '/assets/images/members/Islam, Fahim.png'
+  status: null
+Harry Zhang:
+  connect_uri: null
+  name: Harry Zhang
+  photo_url: null
+  status: null
+Hriday Gupta:
+  connect_uri: null
+  name: Hriday Gupta
+  photo_uri: null
+  status: null
+James Hunt:
+  connect_uri: null
+  name: James Hunt
+  photo_uri: null
+  status: null
+Jun Young Yang:
+  connect_uri: null
+  name: Jun Young Yang
+  photo_uri: null
+  status: null
+Junaid Ackroyd:
+  connect_uri: null
+  name: Junaid Ackroyd
+  photo_uri: null
+  status: null
+Khalil Horton:
+  connect_uri: https://www.linkedin.com/in/khalil-horton-521504162/
+  name: Khalil Horton
+  photo_uri: '/assets/images/members/Horton, Khalil.JPG'
+  status: Software Quality Assurance Intern @ Badger Meter
+Kira Israni:
+  connect_uri: null
+  name: Kira Israni
+  photo_uri: null
+  status: null
+Lindsay Dyjach:
+  connect_uri: https://www.linkedin.com/in/lindsay-dyjach-b84b3b220/
+  name: Lindsay Dyjach
+  photo_uri: '/assets/images/members/Horton, Khalil.png'
+  status: Secretary 
+Michael Wong:
+  connect_uri: null
+  name: Michael Wong
+  photo_uri: null
+  status: null
+Neha Talluri:
+  connect_uri: https://www.linkedin.com/in/neha-t-27a85b124
+  name: Kira Israni
+  photo_uri: '/assets/images/members/Talluri, Neha.jpeg'
+  status: Computer Science Researcher @ UW Madison
+Noah Olson:
+  connect_uri: null
+  name: Noah Olson
+  photo_uri: null
+  status: null
+Ryan Jackson:
+  connect_uri: null
+  name: Ryan Jackson
+  photo_uri: null
+  status: null
+Sahastra Dev Bhadana:
+  connect_uri: null
+  name: Sahastra Dev Bhadana
+  photo_uri: null
+  status: null
+Samyak Jain:
+  connect_uri: null
+  name: Samyak Jain
+  photo_uri: null
+  status: null
+Shaunak Kulkarni:
+  connect_uri: null
+  name: Shaunak Kulkarni
+  photo_uri: null
+  status: null
+Tanish Nahata:
+  connect_uri: null
+  name: Tanish Nahata
+  photo_uri: null
+  status: null
+Zayn Khan:
+  connect_uri: null
+  name: Zayn Khan
+  photo_uri: null
+  status: null
