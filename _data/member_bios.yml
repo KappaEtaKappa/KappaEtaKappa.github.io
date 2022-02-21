@@ -347,7 +347,7 @@ Eric Zhou:
   connect_uri: https://www.linkedin.com/in/eric-zhou-5158b419b/
   name: Eric Zhou
   photo_uri: '/assets/images/members/Zhou, Eric.png'
-  status: null
+  status: Incoming SWE Intern @ Capital One
 Jacob Berry:
   connect_uri: null
   name: Jacob Berry
@@ -394,9 +394,9 @@ Max Albers:
   photo_uri: null
   status: null
 Franklin Wang:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/franklin-wang-a2308a178/
   name: Franklin Wang
-  photo_uri: null
+  photo_uri: '/assets/images/members/Wang, Franklin.png'
   status: null
 Parker Jorenby:
   connect_uri: null
@@ -501,7 +501,7 @@ Kira Israni:
 Lindsay Dyjach:
   connect_uri: https://www.linkedin.com/in/lindsay-dyjach-b84b3b220/
   name: Lindsay Dyjach
-  photo_uri: '/assets/images/members/Horton, Khalil.png'
+  photo_uri: '/assets/images/members/Dyjach, Lindsay.png'
   status: Secretary 
 Michael Wong:
   connect_uri: null
@@ -519,15 +519,15 @@ Noah Olson:
   photo_uri: null
   status: null
 Ryan Jackson:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/ryanleejackson
   name: Ryan Jackson
+  photo_uri: '/assets/images/members/Jackson, Ryan.jpg'
+  status: Exec Board Member
+Sahastra Bhadana:
+  connect_uri: https://www.linkedin.com/in/sahastradev/
+  name: Sahastra Bhadana
   photo_uri: null
-  status: null
-Sahastra Dev Bhadana:
-  connect_uri: null
-  name: Sahastra Dev Bhadana
-  photo_uri: null
-  status: null
+  status: Full Stack Developer
 Samyak Jain:
   connect_uri: null
   name: Samyak Jain

@@ -1,0 +1,48 @@
+---
+semester_index: 9
+members:
+- Sathwik Pattem
+- Adam McAvoy
+- Alexander Kofman
+- Matthew Spotts
+- Tambre Hu
+- Americo Childs
+- Drew Halverson
+- Eric Zhou
+- Jacob Berry
+- Patrick Day
+- Sam Erickson
+- Sangone Jung
+- Tim Bostanche
+- Safwat Rahman
+- Max Albers
+- Franklin Wang
+- Parker Jorenby
+- Kashin Shah
+- Connor Dyjach
+- Abhishek Mhatre
+- Robert Miller
+- Girik Soni
+- Aidan Lau
+- Alex Sannikov
+- Daniel Zimmerman
+- Dev Mehrotra
+- Fahim Islam
+- Harry Zhang
+- Hriday Gupta
+- James Hunt
+- Jun Young Yang
+- Junaid Ackroyd
+- Khalil Horton
+- Kira Israni
+- Lindsay Dyjach
+- Michael Wong
+- Neha Talluri
+- Noah Olson
+- Ryan Jackson
+- Sahastra Bhadana
+- Samyak Jain
+- Shaunak Kulkarni
+- Tanish Nahata
+- Zayn Khan
+---
