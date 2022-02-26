@@ -1,6 +1,7 @@
 ---
 semester_index: 9
 members:
+- Stephanie Jasper
 - Sathwik Pattem
 - Adam McAvoy
 - Alexander Kofman
