@@ -132,7 +132,7 @@ Matthew Kramer:
   connect_uri: 'https://www.linkedin.com/in/matthewthekramer/'
   name: Matthew Kramer
   photo_uri: '/assets/images/members/Kramer, Matthew.jpg'
-  status: President
+  status: null
 Matthew Nicol:
   connect_uri: 'https://www.linkedin.com/in/matthew-nicol-1b9655a4/'
   name: Matthew Nicol
@@ -232,7 +232,7 @@ Ethan Amundson:
   connect_uri: 'https://www.linkedin.com/in/ethanamundson'
   name: Ethan Amundson
   photo_uri: '/assets/images/members/Amundson, Ethan.jpg'
-  status: 
+  status: null
 Wes Koerner:
   connect_uri: 'https://www.linkedin.com/in/wesley-koerner-245471157/'
   name: Wes Koerner
@@ -257,7 +257,7 @@ Bryce Belgarde:
   connect_uri: null
   name: Bryce Belgarde
   photo_uri: '/assets/images/members/Belgarde, Bryce.jpg'
-  status: President
+  status:
 Kiara Mutschler:
   connect_uri: 'https://www.linkedin.com/in/kiara-mutschler/'
   name: Kiara Mutschler
@@ -368,7 +368,7 @@ Sam Erickson:
   name: Sam Erickson
   photo_uri: '/assets/images/members/Erickson, Sam.JPG'
   status: Incoming Software Engineer Intern @ Relativity
-Sangone Jung:
+Sang Jung:
   connect_uri: null
   name: Sang Jung
   photo_uri: null
@@ -510,7 +510,7 @@ Michael Wong:
   status: null
 Neha Talluri:
   connect_uri: https://www.linkedin.com/in/neha-t-27a85b124
-  name: Kira Israni
+  name: Neha Talluri
   photo_uri: '/assets/images/members/Talluri, Neha.jpeg'
   status: Computer Science Researcher @ UW Madison
 Noah Olson:
@@ -523,7 +523,7 @@ Ryan Jackson:
   name: Ryan Jackson
   photo_uri: '/assets/images/members/Jackson, Ryan.jpg'
   status: Exec Board Member
-Sahastra Bhadana:
+Sahastra Dev Bhadana:
   connect_uri: https://www.linkedin.com/in/sahastradev/
   name: Sahastra Bhadana
   photo_uri: null
@@ -546,5 +546,85 @@ Tanish Nahata:
 Zayn Khan:
   connect_uri: null
   name: Zayn Khan
+  photo_uri: null
+  status: null
+Alex Paprocki:
+  connect_uri: null
+  name: Alex Paprocki
+  photo_uri: null
+  status: null
+Ananya Aggarwal:
+  connect_uri: null
+  name: Ananya Aggarwal
+  photo_uri: null
+  status: null
+Ashwath Bhupatiraju:
+  connect_uri: null
+  name: Ashwath Bhupatiraju
+  photo_uri: null
+  status: null
+Ben Klicker:
+  connect_uri: null
+  name: Ben Klicker
+  photo_uri: null
+  status: null
+Jack Rollins:
+  connect_uri: null
+  name: Jack Rollins
+  photo_uri: null
+  status: null
+Matthew Jon Hernandez:
+  connect_uri: null
+  name: Matthew Jon Hernandez
+  photo_uri: null
+  status: null
+Matthew Jon Hernandez:
+  connect_uri: null
+  name: Matthew Jon Hernandez
+  photo_uri: null
+  status: null
+Sydney Bobolz:
+  connect_uri: null
+  name: Sydney Bobolz
+  photo_uri: null
+  status: null
+Tanner Birenbaum:
+  connect_uri: null
+  name: Tanner Birenbaum
+  photo_uri: null
+  status: null
+Johnathan Lemma:
+  connect_uri: null
+  name: Johnathan Lemma
+  photo_uri: null
+  status: null
+Ajith Regulagedda:
+  connect_uri: null
+  name: Ajith Regulagedda
+  photo_uri: null
+  status: null
+Andrea Tseng:
+  connect_uri: null
+  name: Andrea Tseng
+  photo_uri: null
+  status: null
+Jacob Klausner:
+  connect_uri: null
+  name: Jacob Klausner
+  photo_uri: null
+  status: null
+Naveen Balu:
+  connect_uri: null
+  name: Naveen Balu
+  photo_uri: null
+  status: null
+Abhimanyu Gupta:
+  connect_uri: null
+  name: Abhimanyu Gupta
+  photo_uri: null
+  status: null
+Nick Im:
+  connect_uri: null
+  name: Nick Im
   photo_uri: null
   status: null

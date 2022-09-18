@@ -1,7 +1,7 @@
 ---
 title: Game Night
 featured:
-location: Our house
+location: KHK House
 address: >-
   114 N. Orchard St.
   Madison, WI 53715
