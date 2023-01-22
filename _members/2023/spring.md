@@ -1,0 +1,50 @@
+---
+semester_index: 11
+members:
+- Abhimanyu Gupta
+- Abhishek Mhatre
+- Ajith Regulagedda
+- Alex Paprocki
+- Americo Childs
+- Ananya Aggarwal
+- Andrea Tseng
+- Ashwath Bhupatiraju
+- Ben Klicker
+- Connor Dyjach
+- Daniel Zimmerman
+- Darryl Hayes
+- Dev Mehrotra
+- Eric Zhou
+- Franklin Wang
+- Jack Rollins
+- Jacob Klausner
+- James Hunt
+- Johnathan Lemma
+- Junaid Ackroyd
+- Kira Israni
+- Lindsay Dyjach
+- Matthew Jon Hernandez
+- Michael Wong
+- Naveen Balu
+- Neha Talluri
+- Nick Im
+- Noah Olson
+- Parker Jorenby
+- Robert Miller
+- Ryan Jackson
+- Sahastra Dev Bhadana
+- Samuel Erickson
+- Sydney Bobolz
+- Tanner Birenbaum
+- Zayn Khan
+- Brendan O'Leary Bradford
+- Cameron Wiley
+- Dhruv Kerai
+- George Vajagich
+- Jim Taenam Kim
+- Luke Neuendorf
+- Patrick Brophy
+- Salome Habtemichael
+- Sean Chang
+- Shawn Lin
+---
