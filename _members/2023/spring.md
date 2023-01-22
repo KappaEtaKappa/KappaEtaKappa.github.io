@@ -33,7 +33,6 @@ members:
 - Robert Miller
 - Ryan Jackson
 - Sahastra Dev Bhadana
-- Samuel Erickson
 - Sydney Bobolz
 - Tanner Birenbaum
 - Zayn Khan
