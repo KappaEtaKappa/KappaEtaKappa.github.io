@@ -8,7 +8,6 @@ members:
 - Tanner Birenbaum
 - Patrick Brophy
 - Sean Chang
-- Andrew Diener
 - Connor Dyjach
 - Samuel Erickson
 - Abhimanyu Gupta

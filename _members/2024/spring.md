@@ -16,6 +16,7 @@ members:
 - Abhimanyu Gupta
 - Matthew Jon Hernandez
 - Dhruv Kerai
+- Jacob Klausner
 - Salome Habtemichael
 - James Hunt
 - Vincent Iadarola
