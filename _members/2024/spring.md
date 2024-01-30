@@ -1,0 +1,57 @@
+---
+semester_index: 13
+members:
+- Junaid Ackroyd
+- Vidit Agrawal
+- Rachith Anasuri
+- Naveen Balu
+- Rudy Banerjee
+- Arnav Bharadia
+- Tanner Birenbaum
+- Patrick Brophy
+- Sean Chang
+- Andrew Diener
+- Connor Dyjach
+- Samuel Erickson
+- Abhimanyu Gupta
+- Matthew Jon Hernandez
+- Dhruv Kerai
+- Jacob Klausner
+- Salome Habtemichael
+- James Hunt
+- Vincent Iadarola
+- Nick Im
+- Kira Israni
+- Parker Jorenby
+- Karan Kapur
+- Nicole Kemnitz
+- Zayn Khan
+- Ben Klicker
+- Trinity Krohn
+- Johnathan Lemma
+- Shawn Lin
+- Rishit Malpani
+- Dev Mehrotra
+- Kristen Menge
+- Abhishek Mhatre
+- Brendan O'Leary
+- Noah Olson
+- Arushi Renschler Pandey
+- Kevin Park
+- Tyler Richard
+- Jack Rollins
+- Daniel Sandoval
+- Max Schwarz
+- Neel Shah
+- Ansh Pratap Singh
+- Michael Song
+- Neha Talluri
+- William Tobin
+- Andrea Tseng
+- Brock Upson
+- George Vajagich
+- Michael Wong
+- Ryan Young
+- Imogen Youngs
+- Daniel Zimmerman
+---

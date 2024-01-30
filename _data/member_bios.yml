@@ -4,10 +4,10 @@ Alex Bare:
   photo_uri: '/assets/images/members/Bare, Alex.jpg'
   status: Engineer at Oshkosh Corporation
 Alex Elliott:
-  connect_uri: Alex Elliott
+  connect_uri: 'https://www.linkedin.com/in/alex-elliott-a7717b82/'
   name: Alex Elliott
   photo_uri: '/assets/images/members/Elliott, Alex.jpg'
-  status: 'https://www.linkedin.com/in/alex-elliott-a7717b82/'
+  status: null
 Ali Zaidi:
   connect_uri: 'https://www.linkedin.com/in/ali-zaidi-940b49128/'
   name: Ali Zaidi
@@ -242,7 +242,7 @@ John "Mack" Zern:
   connect_uri: 'https://www.linkedin.com/in/john-zern-5911a8170/'
   name: John "Mack" Zern
   photo_uri: '/assets/images/members/Zern, John.jpg'
-  status:
+  status: null
 Graham Mendola:
   connect_uri: 'https://www.linkedin.com/in/graham-mendola-781b68167/'
   name: Graham Mendola
@@ -257,7 +257,7 @@ Bryce Belgarde:
   connect_uri: null
   name: Bryce Belgarde
   photo_uri: '/assets/images/members/Belgarde, Bryce.jpg'
-  status:
+  status: null
 Kiara Mutschler:
   connect_uri: 'https://www.linkedin.com/in/kiara-mutschler/'
   name: Kiara Mutschler
@@ -277,12 +277,12 @@ Sathwik Pattem:
   connect_uri: 'https://www.linkedin.com/in/sathwik-pattem-341170188/'
   name: Sathwik Pattem
   photo_uri: '/assets/images/members/Pattem, Sathwik.jpg'
-  status: 
+  status: null
 Dewansh Bista:
   connect_uri: 'https://www.linkedin.com/in/dewansh-bista-003409148/'
   name: Dewansh Bista
   photo_uri: '/assets/images/members/Bista, Dewansh.jpg'
-  status: Assistant Social Chair, Assistant Publicity
+  status: null
 Adam McAvoy:
   connect_uri: 'https://www.linkedin.com/in/adam-mcavoy-965018152/'
   name: Adam McAvoy
@@ -292,7 +292,7 @@ Oscar Zhang:
   connect_uri: 'https://www.linkedin.com/in/tianhe-zhang-8807aa138/'
   name: Oscar Zhang
   photo_uri: '/assets/images/members/Zhang, Oscar.jpg'
-  status: 
+  status: null
 Alexander Kofman:
   connect_uri: 'https://www.linkedin.com/in/alexanderkofman'
   name: Alexander Kofman
@@ -302,7 +302,7 @@ Matthew Bruton:
   connect_uri: 'http://linkedin.com/in/matthew-bruton-443b16187'
   name: Matthew Bruton
   photo_uri: '/assets/images/members/Bruton, Matthew.jpg'
-  status: Social Chair
+  status: null
 Matthew Spotts:
   connect_uri: null
   name: Matthew Spotts
@@ -317,7 +317,7 @@ Stephanie Jasper:
   connect_uri: https://www.linkedin.com/in/stephanie-jasper-7054a0189/
   name: Stephanie Jasper
   photo_uri: '/assets/images/members/Jasper, Stephanie.jpg'
-  status: Treasurer
+  status: null
 Han Cao:
   connect_uri: 'https://www.linkedin.com/in/hancaocoder/'
   name: Han Cao
@@ -352,7 +352,7 @@ Jacob Berry:
   connect_uri: null
   name: Jacob Berry
   photo_uri: null
-  status: President
+  status: null
 Marwan McBride:
   connect_uri: null
   name: Marwan McBride
@@ -372,7 +372,7 @@ Sang Jung:
   connect_uri: null
   name: Sang Jung
   photo_uri: null
-  status: Secretary, Exec Board
+  status: null
 Sean Zhang:
   connect_uri: null
   name: Sean Zhang
@@ -382,7 +382,7 @@ Tim Bostanche:
   connect_uri: null
   name: Tim Bostanche
   photo_uri: '/assets/images/members/Bostanche, Tim.jpg'
-  status: Treasurer
+  status: null
 Safwat Rahman:
   connect_uri: null
   name: Saftwat Rahman
@@ -402,7 +402,7 @@ Parker Jorenby:
   connect_uri: null
   name: Parker Jorenby
   photo_uri: null
-  status: Vice President
+  status: null
 Kashin Shah:
   connect_uri: null
   name: Kashin Shah
@@ -427,7 +427,7 @@ Bhavit Sai Sunkara:
   connect_uri: null
   name: Bhavit Sai Sunkara
   photo_uri: null
-  status: Assistant Treasurer
+  status: null
 Girik Soni:
   connect_uri: null
   name: Girik Soni
@@ -502,11 +502,11 @@ Lindsay Dyjach:
   connect_uri: https://www.linkedin.com/in/lindsay-dyjach-b84b3b220/
   name: Lindsay Dyjach
   photo_uri: '/assets/images/members/Dyjach, Lindsay.png'
-  status: Secretary 
+  status: null 
 Michael Wong:
-  connect_uri: null
+  connect_uri: https://www.linkedin.com/in/michaelkyw
   name: Michael Wong
-  photo_uri: null
+  photo_uri: '/assets/images/members/Wong, Michael.jpeg'
   status: null
 Neha Talluri:
   connect_uri: https://www.linkedin.com/in/neha-t-27a85b124
@@ -522,7 +522,7 @@ Ryan Jackson:
   connect_uri: https://www.linkedin.com/in/ryanleejackson
   name: Ryan Jackson
   photo_uri: '/assets/images/members/Jackson, Ryan.jpg'
-  status: Exec Board Member
+  status: null
 Sahastra Dev Bhadana:
   connect_uri: https://www.linkedin.com/in/sahastradev/
   name: Sahastra Bhadana
@@ -610,7 +610,7 @@ Andrea Tseng:
   status: null
 Jacob Klausner:
   connect_uri: null
-  name: Jacob Klausner
+  name: Jack Klausner
   photo_uri: null
   status: null
 Naveen Balu:
@@ -676,5 +676,143 @@ Sean Chang:
 Shawn Lin:
   connect_uri: null
   name: Shawn Lin
+  photo_uri: null
+  status: null
+
+Andrew Diener:
+  connect_uri: null
+  name: Andrew Diener
+  photo_uri: null
+  status: null
+
+Ansh Pratap Singh:
+  connect_uri: null
+  name: Ansh Pratap Singh
+  photo_uri: null
+  status: null
+
+Arushi Renschler Pandey:
+  connect_uri: null
+  name: Arushi Renschler Pandey
+  photo_uri: null
+  status: null
+
+Brock Upson:
+  connect_uri: null
+  name: Brock Upson
+  photo_uri: null
+  status: null
+
+Karan Kapur:
+  connect_uri: null
+  name: Karan Kapur
+  photo_uri: null
+  status: null
+
+Rudy Banerjee:
+  connect_uri: null
+  name: Rudy Banerjee
+  photo_uri: null
+  status: null
+
+Vidit Agrawal:
+  connect_uri: null
+  name: Vidit Agrawal
+  photo_uri: null
+  status: null
+
+Daniel Sandoval:
+  connect_uri: null
+  name: Daniel Sandoval
+  photo_uri: null
+  status: null
+
+Nicole Kemnitz:
+  connect_uri: null
+  name: Nicole Kemnitz
+  photo_uri: null
+  status: null
+
+Imogen Youngs:
+  connect_uri: null
+  name: Imogen Youngs
+  photo_uri: null
+  status: null
+
+Kevin Park:
+  connect_uri: null
+  name: Kevin Park
+  photo_uri: null
+  status: null
+
+Kristen Menge:
+  connect_uri: null
+  name: Kristen Menge
+  photo_uri: null
+  status: null
+
+Max Schwarz:
+  connect_uri: null
+  name: Max Schwarz
+  photo_uri: null
+  status: null
+
+Michael Song:
+  connect_uri: null
+  name: Michael Song
+  photo_uri: null
+  status: null
+
+Neel Shah:
+  connect_uri: null
+  name: Neel Shah
+  photo_uri: null
+  status: null
+
+Rachith Anasuri:
+  connect_uri: null
+  name: Rachith Anasuri
+  photo_uri: null
+  status: null
+
+Rishit Malpani:
+  connect_uri: null
+  name: Rishit Malpani
+  photo_uri: null
+  status: null
+
+Ryan Young:
+  connect_uri: null
+  name: Ryan Young
+  photo_uri: null
+  status: null
+
+Trinity Krohn:
+  connect_uri: null
+  name: Trinity Krohn
+  photo_uri: null
+  status: null
+
+Tyler Richard:
+  connect_uri: null
+  name: Tyler Richard
+  photo_uri: null
+  status: null
+
+Vincent Iadarola:
+  connect_uri: null
+  name: Vinny Iadarola
+  photo_uri: null
+  status: null
+
+William Tobin:
+  connect_uri: null
+  name: Will Tobin
+  photo_uri: null
+  status: null
+
+Arnav Bharadia:
+  connect_uri: null
+  name: Arnav Bharadia
   photo_uri: null
   status: null
